@@ -1,6 +1,6 @@
 # 金融商品历史价格下载报告
 
-- 生成时间（UTC）：2026-10-30T11:53:09Z
+- 生成时间（UTC）：2026-10-30T12:16:17Z
 - 本报告只记录实际运行、实际下载和实际检查的结果。
 - 数据**不是** point-in-time 版本库；没有供应商版本历史，不得当作 PIT 数据。
 - 月度 IndexMundi 仅作为 `monthly_reference`，未插值、未前向填充、未复制成日线。
@@ -17,38 +17,38 @@
 
 ## 请求区间
 
-- 高频默认：`[2023-01-01, 2026-01-01)`
-- 日线截止：`2026-10-30`（dukascopy-node 的 `--date-to` 为开区间终点）
+- 高频默认：`[2023-01-01, 2026-10-31)`
+- 日线截止：`2026-10-31`（dukascopy-node 的 `--date-to` 为开区间终点）
 
 ## 总表
 
 | 品种 | 产品属性 | 来源 | 频率 | 请求区间 | 实际覆盖 | 行数 | 单位 | 文件路径 | 质量结果 | 完成状态 |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- | --- |
-| WTI原油 | official_spot | EIA | daily | [earliest available, 2026-10-30) (full published file, no ranged query) | 1986-01-02 .. 2026-10-27 | 9532 | USD per barrel | `/root/workspace/commodity_history/data/daily/wti_eia_spot_daily.csv` | warn | completed |
-| Brent原油 | official_spot | EIA | daily | [earliest available, 2026-10-30) (full published file, no ranged query) | 1987-05-20 .. 2026-10-27 | 9117 | USD per barrel | `/root/workspace/commodity_history/data/daily/brent_eia_spot_daily.csv` | warn | completed |
+| WTI原油 | official_spot | EIA | daily | [earliest available, 2026-10-31) (full published file, no ranged query) | 1986-01-02 .. 2026-10-27 | 9532 | USD per barrel | `/root/workspace/commodity_history/data/daily/wti_eia_spot_daily.csv` | warn | completed |
+| Brent原油 | official_spot | EIA | daily | [earliest available, 2026-10-31) (full published file, no ranged query) | 1987-05-20 .. 2026-10-27 | 9117 | USD per barrel | `/root/workspace/commodity_history/data/daily/brent_eia_spot_daily.csv` | warn | completed |
 | 黄金 | monthly_average_reference | IndexMundi | monthly | longest monthly history on IndexMundi page | 1996-09-01 .. 2026-03-01 | 355 | US Dollars per Troy Ounce | `/root/workspace/commodity_history/data/monthly_reference/gold_indexmundi_monthly.csv` | pass | completed |
 | 白银 | monthly_average_reference | IndexMundi | monthly | longest monthly history on IndexMundi page | 1996-09-01 .. 2026-03-01 | 355 | US Dollars per Troy Ounce | `/root/workspace/commodity_history/data/monthly_reference/silver_indexmundi_monthly.csv` | pass | completed |
 | 铜 | monthly_average_reference | IndexMundi | monthly | longest monthly history on IndexMundi page | 1996-09-01 .. 2026-03-01 | 355 | US Dollars per Metric Ton | `/root/workspace/commodity_history/data/monthly_reference/copper_indexmundi_monthly.csv` | pass | completed |
 | 黄金 | monthly_average_reference | World Bank | monthly | full pink-sheet monthly history | 1960-01-01 .. 2024-12-01 | 780 | ($/troy oz) | `/root/workspace/commodity_history/data/monthly_reference/gold_worldbank_pinksheet_monthly.csv` | pass | completed |
 | 白银 | monthly_average_reference | World Bank | monthly | full pink-sheet monthly history | 1960-01-01 .. 2024-12-01 | 780 | ($/troy oz) | `/root/workspace/commodity_history/data/monthly_reference/silver_worldbank_pinksheet_monthly.csv` | pass | completed |
 | 铜 | monthly_average_reference | World Bank | monthly | full pink-sheet monthly history | 1960-01-01 .. 2024-12-01 | 780 | ($/mt) | `/root/workspace/commodity_history/data/monthly_reference/copper_worldbank_pinksheet_monthly.csv` | pass | completed |
-| 黄金 | official_spot_benchmark | FRED | daily | [earliest available, 2026-10-30) |  |  |  | `` |  | blocked |
-| 白银 | official_spot_benchmark | FRED | daily | [earliest available, 2026-10-30) |  |  |  | `` |  | blocked |
-| 黄金 | dukascopy_spot_quote | Dukascopy | daily native d1 | [1999-06-03, 2026-10-30) | 1999-06-03 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 8312 | USD per troy ounce | `/root/workspace/commodity_history/data/daily/gold_dukascopy_native_d1.csv` | warn_ohlc_source | completed |
-| 白银 | dukascopy_spot_quote | Dukascopy | daily native d1 | [1999-06-03, 2026-10-30) | 1999-06-03 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 8299 | USD per troy ounce | `/root/workspace/commodity_history/data/daily/silver_dukascopy_native_d1.csv` | warn_ohlc_source | completed |
-| 铜 | cfd_proxy | Dukascopy | daily native d1 | [2012-03-02, 2026-10-30) | 2012-03-04 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 4550 | USD per pound | `/root/workspace/commodity_history/data/daily/copper_dukascopy_native_d1.csv` | warn | completed |
-| Brent原油 | cfd_proxy | Dukascopy | daily native d1 | [2006-11-17, 2026-10-30) | 2010-12-02 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 4059 | USD per barrel | `/root/workspace/commodity_history/data/daily/brent_dukascopy_native_d1.csv` | warn_ohlc_source | partial |
-| WTI原油 | cfd_proxy | Dukascopy | daily native d1 | [1983-04-20, 2026-10-30) | 1992-12-31 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 9271 | USD per barrel | `/root/workspace/commodity_history/data/daily/wti_dukascopy_native_d1.csv` | warn_ohlc_source | partial |
-| 黄金 | dukascopy_spot_quote | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-01-01) | 2023-01-02 23:00:00+00:00 .. 2025-12-31 21:55:00+00:00 | 212736 | USD per troy ounce | `/root/workspace/commodity_history/data/intraday_5m/gold/dukascopy/gold_m5_bid_all.csv` | warn | completed |
-| 黄金 | dukascopy_spot_quote | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-01-01) | 2023-01-02 23:00:00+00:00 .. 2025-12-31 21:55:00+00:00 | 934 | USD per troy ounce | `/root/workspace/commodity_history/data/daily/gold_dukascopy_utc_daily_from_m5.csv` | warn | completed |
-| 白银 | dukascopy_spot_quote | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-01-01) | 2023-01-02 23:00:00+00:00 .. 2025-12-31 21:55:00+00:00 | 212634 | USD per troy ounce | `/root/workspace/commodity_history/data/intraday_5m/silver/dukascopy/silver_m5_bid_all.csv` | warn | completed |
-| 白银 | dukascopy_spot_quote | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-01-01) | 2023-01-02 23:00:00+00:00 .. 2025-12-31 21:55:00+00:00 | 934 | USD per troy ounce | `/root/workspace/commodity_history/data/daily/silver_dukascopy_utc_daily_from_m5.csv` | warn | completed |
-| 铜 | cfd_proxy | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-01-01) | 2023-01-02 23:00:00+00:00 .. 2025-12-31 21:55:00+00:00 | 212118 | USD per pound | `/root/workspace/commodity_history/data/intraday_5m/copper/dukascopy/copper_m5_bid_all.csv` | warn | completed |
-| 铜 | cfd_proxy | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-01-01) | 2023-01-02 23:00:00+00:00 .. 2025-12-31 21:55:00+00:00 | 934 | USD per pound | `/root/workspace/commodity_history/data/daily/copper_dukascopy_utc_daily_from_m5.csv` | warn | completed |
-| WTI原油 | cfd_proxy | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-01-01) | 2023-01-02 23:00:00+00:00 .. 2025-12-31 21:55:00+00:00 | 212410 | USD per barrel | `/root/workspace/commodity_history/data/intraday_5m/wti/dukascopy/wti_m5_bid_all.csv` | warn | completed |
-| WTI原油 | cfd_proxy | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-01-01) | 2023-01-02 23:00:00+00:00 .. 2025-12-31 21:55:00+00:00 | 934 | USD per barrel | `/root/workspace/commodity_history/data/daily/wti_dukascopy_utc_daily_from_m5.csv` | warn | completed |
-| Brent原油 | cfd_proxy | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-01-01) | 2023-01-03 01:00:00+00:00 .. 2025-12-31 19:25:00+00:00 | 193864 | USD per barrel | `/root/workspace/commodity_history/data/intraday_5m/brent/dukascopy/brent_m5_bid_all.csv` | warn | completed |
-| Brent原油 | cfd_proxy | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-01-01) | 2023-01-03 01:00:00+00:00 .. 2025-12-31 19:25:00+00:00 | 774 | USD per barrel | `/root/workspace/commodity_history/data/daily/brent_dukascopy_utc_daily_from_m5.csv` | warn | completed |
+| 黄金 | official_spot_benchmark | FRED | daily | [earliest available, 2026-10-31) |  |  |  | `` |  | blocked |
+| 白银 | official_spot_benchmark | FRED | daily | [earliest available, 2026-10-31) |  |  |  | `` |  | blocked |
+| 黄金 | dukascopy_spot_quote | Dukascopy | daily native d1 | [1999-06-03, 2026-10-31) | 1999-06-03 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 8312 | USD per troy ounce | `/root/workspace/commodity_history/data/daily/gold_dukascopy_native_d1.csv` | warn_ohlc_source | completed |
+| 白银 | dukascopy_spot_quote | Dukascopy | daily native d1 | [1999-06-03, 2026-10-31) | 1999-06-03 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 8299 | USD per troy ounce | `/root/workspace/commodity_history/data/daily/silver_dukascopy_native_d1.csv` | warn_ohlc_source | completed |
+| 铜 | cfd_proxy | Dukascopy | daily native d1 | [2012-03-02, 2026-10-31) | 2012-03-04 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 4550 | USD per pound | `/root/workspace/commodity_history/data/daily/copper_dukascopy_native_d1.csv` | warn | completed |
+| WTI原油 | cfd_proxy | Dukascopy | daily native d1 | [1983-04-20, 2026-10-31) | 1992-12-31 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 9271 | USD per barrel | `/root/workspace/commodity_history/data/daily/wti_dukascopy_native_d1.csv` | warn_ohlc_source | partial |
+| Brent原油 | cfd_proxy | Dukascopy | daily native d1 | [2006-11-17, 2026-10-31) | 2010-12-02 00:00:00+00:00 .. 2026-10-29 00:00:00+00:00 | 4059 | USD per barrel | `/root/workspace/commodity_history/data/daily/brent_dukascopy_native_d1.csv` | warn_ohlc_source | partial |
+| 黄金 | dukascopy_spot_quote | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 271754 | USD per troy ounce | `/root/workspace/commodity_history/data/intraday_5m/gold/dukascopy/gold_m5_bid_all.csv` | warn | completed |
+| 黄金 | dukascopy_spot_quote | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 1193 | USD per troy ounce | `/root/workspace/commodity_history/data/daily/gold_dukascopy_utc_daily_from_m5.csv` | warn | completed |
+| 白银 | dukascopy_spot_quote | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 271489 | USD per troy ounce | `/root/workspace/commodity_history/data/intraday_5m/silver/dukascopy/silver_m5_bid_all.csv` | warn | completed |
+| 白银 | dukascopy_spot_quote | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 1193 | USD per troy ounce | `/root/workspace/commodity_history/data/daily/silver_dukascopy_utc_daily_from_m5.csv` | warn | completed |
+| 铜 | cfd_proxy | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 271047 | USD per pound | `/root/workspace/commodity_history/data/intraday_5m/copper/dukascopy/copper_m5_bid_all.csv` | warn | completed |
+| 铜 | cfd_proxy | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 1193 | USD per pound | `/root/workspace/commodity_history/data/daily/copper_dukascopy_utc_daily_from_m5.csv` | warn | completed |
+| WTI原油 | cfd_proxy | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 271380 | USD per barrel | `/root/workspace/commodity_history/data/intraday_5m/wti/dukascopy/wti_m5_bid_all.csv` | warn | completed |
+| WTI原油 | cfd_proxy | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 1193 | USD per barrel | `/root/workspace/commodity_history/data/daily/wti_dukascopy_utc_daily_from_m5.csv` | warn | completed |
+| Brent原油 | cfd_proxy | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-10-31) | 2023-01-03 01:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 247721 | USD per barrel | `/root/workspace/commodity_history/data/intraday_5m/brent/dukascopy/brent_m5_bid_all.csv` | warn | completed |
+| Brent原油 | cfd_proxy | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-10-31) | 2023-01-03 01:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 989 | USD per barrel | `/root/workspace/commodity_history/data/daily/brent_dukascopy_utc_daily_from_m5.csv` | warn | completed |
 
 ## 小样本验证
 
@@ -57,143 +57,103 @@
   "downloads": [
     {
       "ok": true,
-      "skipped": false,
+      "skipped": true,
       "instrument": "gold",
       "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m5/gold_xauusd_m5_bid_2024-03-04_2024-03-09.csv",
       "from": "2024-03-04",
       "to": "2024-03-09",
       "timeframe": "m5",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.16
-      }
+      "price_side": "bid"
     },
     {
       "ok": true,
-      "skipped": false,
+      "skipped": true,
       "instrument": "gold",
       "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m1/gold_xauusd_m1_bid_2024-03-04_2024-03-09.csv",
       "from": "2024-03-04",
       "to": "2024-03-09",
       "timeframe": "m1",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.18
-      }
+      "price_side": "bid"
     },
     {
       "ok": true,
-      "skipped": false,
+      "skipped": true,
       "instrument": "silver",
       "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m5/silver_xagusd_m5_bid_2024-03-04_2024-03-09.csv",
       "from": "2024-03-04",
       "to": "2024-03-09",
       "timeframe": "m5",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.35
-      }
+      "price_side": "bid"
     },
     {
       "ok": true,
-      "skipped": false,
-      "instrument": "silver",
-      "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m1/silver_xagusd_m1_bid_2024-03-04_2024-03-09.csv",
-      "from": "2024-03-04",
-      "to": "2024-03-09",
-      "timeframe": "m1",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.34
-      }
-    },
-    {
-      "ok": true,
-      "skipped": false,
+      "skipped": true,
       "instrument": "copper",
       "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m5/copper_coppercmdusd_m5_bid_2024-03-04_2024-03-09.csv",
       "from": "2024-03-04",
       "to": "2024-03-09",
       "timeframe": "m5",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.29
-      }
+      "price_side": "bid"
     },
     {
       "ok": true,
-      "skipped": false,
+      "skipped": true,
+      "instrument": "silver",
+      "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m1/silver_xagusd_m1_bid_2024-03-04_2024-03-09.csv",
+      "from": "2024-03-04",
+      "to": "2024-03-09",
+      "timeframe": "m1",
+      "price_side": "bid"
+    },
+    {
+      "ok": true,
+      "skipped": true,
       "instrument": "copper",
       "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m1/copper_coppercmdusd_m1_bid_2024-03-04_2024-03-09.csv",
       "from": "2024-03-04",
       "to": "2024-03-09",
       "timeframe": "m1",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.3
-      }
+      "price_side": "bid"
     },
     {
       "ok": true,
-      "skipped": false,
+      "skipped": true,
       "instrument": "wti",
       "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m5/wti_lightcmdusd_m5_bid_2024-03-04_2024-03-09.csv",
       "from": "2024-03-04",
       "to": "2024-03-09",
       "timeframe": "m5",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.29
-      }
+      "price_side": "bid"
     },
     {
       "ok": true,
-      "skipped": false,
-      "instrument": "wti",
-      "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m1/wti_lightcmdusd_m1_bid_2024-03-04_2024-03-09.csv",
-      "from": "2024-03-04",
-      "to": "2024-03-09",
-      "timeframe": "m1",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.3
-      }
-    },
-    {
-      "ok": true,
-      "skipped": false,
+      "skipped": true,
       "instrument": "brent",
       "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m5/brent_brentcmdusd_m5_bid_2024-03-04_2024-03-09.csv",
       "from": "2024-03-04",
       "to": "2024-03-09",
       "timeframe": "m5",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.29
-      }
+      "price_side": "bid"
     },
     {
       "ok": true,
-      "skipped": false,
+      "skipped": true,
+      "instrument": "wti",
+      "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m1/wti_lightcmdusd_m1_bid_2024-03-04_2024-03-09.csv",
+      "from": "2024-03-04",
+      "to": "2024-03-09",
+      "timeframe": "m1",
+      "price_side": "bid"
+    },
+    {
+      "ok": true,
+      "skipped": true,
       "instrument": "brent",
       "path": "/root/workspace/commodity_history/data/raw/dukascopy/sample/m1/brent_brentcmdusd_m1_bid_2024-03-04_2024-03-09.csv",
       "from": "2024-03-04",
       "to": "2024-03-09",
       "timeframe": "m1",
-      "price_side": "bid",
-      "cli": {
-        "returncode": 0,
-        "seconds": 0.28
-      }
+      "price_side": "bid"
     }
   ],
   "m1_vs_m5": [
@@ -681,40 +641,40 @@
         "volume": 1650560
       },
       {
-        "timestamp_utc": "2023-10-02 00:00:00+00:00",
+        "timestamp_utc": "2023-12-17 00:00:00+00:00",
         "instrument": "gold",
-        "open": 1848.295,
-        "high": 1848.835,
-        "low": 1820.405,
-        "close": 1824.845,
-        "volume": 17403885
+        "open": 2018.898,
+        "high": 2020.675,
+        "low": 2015.885,
+        "close": 2017.345,
+        "volume": 544190
       },
       {
-        "timestamp_utc": "2024-07-04 00:00:00+00:00",
+        "timestamp_utc": "2024-12-02 00:00:00+00:00",
         "instrument": "gold",
-        "open": 2358.725,
-        "high": 2362.385,
-        "low": 2350.364,
-        "close": 2356.655,
-        "volume": 25971430
+        "open": 2645.748,
+        "high": 2651.648,
+        "low": 2622.0,
+        "close": 2642.095,
+        "volume": 72741633
       },
       {
-        "timestamp_utc": "2025-04-02 00:00:00+00:00",
+        "timestamp_utc": "2025-11-16 00:00:00+00:00",
         "instrument": "gold",
-        "open": 3114.998,
-        "high": 3167.548,
-        "low": 3104.175,
-        "close": 3162.475,
-        "volume": 45516857
+        "open": 4084.898,
+        "high": 4106.295,
+        "low": 4070.395,
+        "close": 4096.198,
+        "volume": 1713100
       },
       {
-        "timestamp_utc": "2025-12-31 00:00:00+00:00",
+        "timestamp_utc": "2026-10-30 00:00:00+00:00",
         "instrument": "gold",
-        "open": 4338.655,
-        "high": 4372.905,
-        "low": 4273.805,
-        "close": 4318.679,
-        "volume": 65199280
+        "open": 4007.764,
+        "high": 4018.555,
+        "low": 3961.598,
+        "close": 3962.305,
+        "volume": 31726160
       }
     ],
     "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
@@ -735,40 +695,40 @@
         "volume": 36310
       },
       {
-        "timestamp_utc": "2023-10-02 07:30:00+00:00",
+        "timestamp_utc": "2023-12-15 03:45:00+00:00",
         "instrument": "gold",
-        "open": 1842.845,
-        "high": 1843.085,
-        "low": 1842.325,
-        "close": 1842.735,
-        "volume": 71760
+        "open": 2035.125,
+        "high": 2035.365,
+        "low": 2033.885,
+        "close": 2034.175,
+        "volume": 80780
       },
       {
-        "timestamp_utc": "2024-07-02 18:25:00+00:00",
+        "timestamp_utc": "2024-11-29 03:00:00+00:00",
         "instrument": "gold",
-        "open": 2326.615,
-        "high": 2327.395,
-        "low": 2326.368,
-        "close": 2326.515,
-        "volume": 239710
+        "open": 2657.325,
+        "high": 2658.488,
+        "low": 2657.0,
+        "close": 2657.575,
+        "volume": 227385
       },
       {
-        "timestamp_utc": "2025-04-02 07:55:00+00:00",
+        "timestamp_utc": "2025-11-14 06:15:00+00:00",
         "instrument": "gold",
-        "open": 3123.935,
-        "high": 3125.885,
-        "low": 3123.445,
-        "close": 3125.075,
-        "volume": 153790
+        "open": 4189.505,
+        "high": 4189.885,
+        "low": 4182.865,
+        "close": 4183.705,
+        "volume": 182600
       },
       {
-        "timestamp_utc": "2025-12-31 21:55:00+00:00",
+        "timestamp_utc": "2026-10-30 12:10:00+00:00",
         "instrument": "gold",
-        "open": 4317.095,
-        "high": 4318.719,
-        "low": 4316.525,
-        "close": 4318.679,
-        "volume": 127090
+        "open": 3965.805,
+        "high": 3966.955,
+        "low": 3961.665,
+        "close": 3962.305,
+        "volume": 228330
       }
     ],
     "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
@@ -807,7 +767,7 @@
         "volume": 971326000
       },
       {
-        "timesta
+        "timestamp_utc"
 ```
 
 ## 与来源对照 / 跨来源数量级核查
@@ -884,15 +844,15 @@
 - 证据：HTTP 404; url=https://fred.stlouisfed.org/graph/fredgraph.csv?id=SLVPRUSD; HTTP 404; content_type=text/html; charset=UTF-8; sniff=html。独立官方/基准日线未获得，未与 Dukascopy 拼接。 下一步：换仍公开的 FRED 日频序列 ID，或取得 LBMA 授权后下载定盘。
 - 路径：`None`
 
-### Brent原油 / Dukascopy / daily native d1 — `partial`
-
-- 证据：Dukascopy UK Brent Oil CFD continuous broker quote. Not EIA Europe Brent spot and not ICE raw futures. 文档/请求最早 2006-11-17，实际首根 2010-12-02（晚 1476 天）。 dukascopy-node 1.51.1 crashes with Cannot read properties of undefined (reading '0') when -from 2006-11-17 or 2007-01-02. First working d1 fetch is 2010-12-02.
-- 路径：`/root/workspace/commodity_history/data/daily/brent_dukascopy_native_d1.csv`
-
 ### WTI原油 / Dukascopy / daily native d1 — `partial`
 
 - 证据：Dukascopy US Light Crude Oil CFD continuous broker quote. Not EIA Cushing WTI spot and not NYMEX raw futures. 文档/请求最早 1983-04-20，实际首根 1992-12-31（晚 3543 天）。 供应商工具返回的文件从该日起才有观测，未用其他口径回填。
 - 路径：`/root/workspace/commodity_history/data/daily/wti_dukascopy_native_d1.csv`
+
+### Brent原油 / Dukascopy / daily native d1 — `partial`
+
+- 证据：Dukascopy UK Brent Oil CFD continuous broker quote. Not EIA Europe Brent spot and not ICE raw futures. 文档/请求最早 2006-11-17，实际首根 2010-12-02（晚 1476 天）。 dukascopy-node 1.51.1 crashes with Cannot read properties of undefined (reading '0') when -from 2006-11-17 or 2007-01-02. First working d1 fetch is 2010-12-02.
+- 路径：`/root/workspace/commodity_history/data/daily/brent_dukascopy_native_d1.csv`
 
 ### 其他已核实但未作为主数据集的阻塞
 

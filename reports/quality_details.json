@@ -1275,7 +1275,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 934,
+    "rows": 1193,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -1292,12 +1292,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-02 00:00:00+00:00",
-    "end": "2025-12-31 00:00:00+00:00",
+    "end": "2026-10-30 00:00:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 156,
-    "n_unknown_gaps": 154,
+    "n_gaps": 199,
+    "n_unknown_gaps": 197,
     "gaps_preview": [
       {
         "gap_start": "2023-01-06 00:00:00+00:00",
@@ -1427,8 +1427,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 1810.665,
-      "max_observed": 4532.365,
-      "median": 2384.2165,
+      "max_observed": 5512.255,
+      "median": 2660.345,
       "n_outside_expected": 0,
       "expected_range": [
         200,
@@ -1448,7 +1448,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 212736,
+    "rows": 271754,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -1465,12 +1465,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-02 23:00:00+00:00",
-    "end": "2025-12-31 21:55:00+00:00",
+    "end": "2026-10-30 12:10:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 780,
-    "n_unknown_gaps": 629,
+    "n_gaps": 995,
+    "n_unknown_gaps": 802,
     "gaps_preview": [
       {
         "gap_start": "2023-01-03 21:55:00+00:00",
@@ -1600,8 +1600,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 1806.855,
-      "max_observed": 4548.365,
-      "median": 2381.5,
+      "max_observed": 5587.628,
+      "median": 2661.6845000000003,
       "n_outside_expected": 0,
       "expected_range": [
         200,
@@ -1809,7 +1809,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 934,
+    "rows": 1193,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -1826,12 +1826,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-02 00:00:00+00:00",
-    "end": "2025-12-31 00:00:00+00:00",
+    "end": "2026-10-30 00:00:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 156,
-    "n_unknown_gaps": 154,
+    "n_gaps": 199,
+    "n_unknown_gaps": 197,
     "gaps_preview": [
       {
         "gap_start": "2023-01-06 00:00:00+00:00",
@@ -1961,8 +1961,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 20.027,
-      "max_observed": 81.814,
-      "median": 29.049500000000002,
+      "max_observed": 117.755,
+      "median": 31.159,
       "n_outside_expected": 0,
       "expected_range": [
         1,
@@ -1970,8 +1970,23 @@
       ],
       "unit": "USD/troy oz"
     },
-    "spikes": [],
-    "n_spikes": 0,
+    "spikes": [
+      {
+        "position": 959,
+        "date": "2026-01-30 00:00:00+00:00",
+        "value": 85.286,
+        "prev": 117.6,
+        "pct_change": -0.2747789115646258
+      },
+      {
+        "position": 964,
+        "date": "2026-02-05 00:00:00+00:00",
+        "value": 67.113,
+        "prev": 89.604,
+        "pct_change": -0.25100441944556046
+      }
+    ],
+    "n_spikes": 2,
     "ohlc_violations": 0,
     "quality": "warn"
   },
@@ -1982,7 +1997,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 212634,
+    "rows": 271489,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -1999,12 +2014,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-02 23:00:00+00:00",
-    "end": "2025-12-31 21:55:00+00:00",
+    "end": "2026-10-30 12:10:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 819,
-    "n_unknown_gaps": 668,
+    "n_gaps": 1115,
+    "n_unknown_gaps": 922,
     "gaps_preview": [
       {
         "gap_start": "2023-01-03 21:55:00+00:00",
@@ -2134,8 +2149,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 19.893,
-      "max_observed": 83.384,
-      "median": 29.078,
+      "max_observed": 121.555,
+      "median": 31.124,
       "n_outside_expected": 0,
       "expected_range": [
         1,
@@ -2328,7 +2343,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 934,
+    "rows": 1193,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -2345,12 +2360,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-02 00:00:00+00:00",
-    "end": "2025-12-31 00:00:00+00:00",
+    "end": "2026-10-30 00:00:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 156,
-    "n_unknown_gaps": 154,
+    "n_gaps": 199,
+    "n_unknown_gaps": 197,
     "gaps_preview": [
       {
         "gap_start": "2023-01-06 00:00:00+00:00",
@@ -2480,8 +2495,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 3.5506,
-      "max_observed": 5.8505,
-      "median": 4.2183,
+      "max_observed": 6.8998,
+      "median": 4.4703,
       "n_outside_expected": 0,
       "expected_range": [
         0.5,
@@ -2501,7 +2516,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 212118,
+    "rows": 271047,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -2518,12 +2533,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-02 23:00:00+00:00",
-    "end": "2025-12-31 21:55:00+00:00",
+    "end": "2026-10-30 12:10:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 1011,
-    "n_unknown_gaps": 860,
+    "n_gaps": 1254,
+    "n_unknown_gaps": 1061,
     "gaps_preview": [
       {
         "gap_start": "2023-01-03 21:55:00+00:00",
@@ -2653,8 +2668,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 3.5189,
-      "max_observed": 5.9499,
-      "median": 4.2197,
+      "max_observed": 6.9241,
+      "median": 4.469,
       "n_outside_expected": 0,
       "expected_range": [
         0.5,
@@ -2897,7 +2912,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 934,
+    "rows": 1193,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -2914,12 +2929,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-02 00:00:00+00:00",
-    "end": "2025-12-31 00:00:00+00:00",
+    "end": "2026-10-30 00:00:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 156,
-    "n_unknown_gaps": 154,
+    "n_gaps": 199,
+    "n_unknown_gaps": 197,
     "gaps_preview": [
       {
         "gap_start": "2023-01-06 00:00:00+00:00",
@@ -3049,8 +3064,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 55.412,
-      "max_observed": 93.823,
-      "median": 72.94800000000001,
+      "max_observed": 114.247,
+      "median": 74.098,
       "n_outside_expected": 0,
       "expected_range": [
         -50,
@@ -3070,7 +3085,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 212410,
+    "rows": 271380,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -3087,12 +3102,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-02 23:00:00+00:00",
-    "end": "2025-12-31 21:55:00+00:00",
+    "end": "2026-10-30 12:10:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 834,
-    "n_unknown_gaps": 683,
+    "n_gaps": 1058,
+    "n_unknown_gaps": 865,
     "gaps_preview": [
       {
         "gap_start": "2023-01-03 21:55:00+00:00",
@@ -3222,8 +3237,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 55.025,
-      "max_observed": 94.883,
-      "median": 72.913,
+      "max_observed": 118.07,
+      "median": 74.178,
       "n_outside_expected": 0,
       "expected_range": [
         -50,
@@ -3431,7 +3446,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 774,
+    "rows": 989,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -3448,12 +3463,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-03 00:00:00+00:00",
-    "end": "2025-12-31 00:00:00+00:00",
+    "end": "2026-10-30 00:00:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 159,
-    "n_unknown_gaps": 8,
+    "n_gaps": 203,
+    "n_unknown_gaps": 10,
     "gaps_preview": [
       {
         "gap_start": "2023-01-06 00:00:00+00:00",
@@ -3583,8 +3598,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 58.838,
-      "max_observed": 94.605,
-      "median": 77.024,
+      "max_observed": 116.797,
+      "median": 78.562,
       "n_outside_expected": 0,
       "expected_range": [
         1,
@@ -3604,7 +3619,7 @@
     "exists": true,
     "readable": true,
     "empty": false,
-    "rows": 193864,
+    "rows": 247721,
     "columns": [
       "timestamp_utc",
       "instrument",
@@ -3621,12 +3636,12 @@
       "volume_semantics"
     ],
     "start": "2023-01-03 01:00:00+00:00",
-    "end": "2025-12-31 19:25:00+00:00",
+    "end": "2026-10-30 12:10:00+00:00",
     "sorted": true,
     "duplicate_timestamps": 0,
     "null_timestamps": 0,
-    "n_gaps": 827,
-    "n_unknown_gaps": 827,
+    "n_gaps": 1047,
+    "n_unknown_gaps": 1047,
     "gaps_preview": [
       {
         "gap_start": "2023-01-03 21:55:00+00:00",
@@ -3756,8 +3771,8 @@
     "magnitude": {
       "checked": true,
       "min_observed": 58.555,
-      "max_observed": 95.833,
-      "median": 77.028,
+      "max_observed": 118.497,
+      "median": 78.648,
       "n_outside_expected": 0,
       "expected_range": [
         1,

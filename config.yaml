@@ -8,18 +8,18 @@ project:
   batch_size: 10
   batch_pause_ms: 1000
 
-# 高频默认：执行年 2026 -> [2023-01-01, 2026-01-01)
-# 所有接口的结束日期规则见 date_end_rules
+# 高频：原默认是最近三个完整日历年。执行年 2026 时为 [2023-01-01, 2026-01-01)。
+# 已按“下载到当前”改为含 2026 年至今：结束日期为开区间，见 date_end_rules。
 intraday:
   start: "2023-01-01"
-  end: "2026-01-01"          # exclusive
+  end: "2026-10-31"          # exclusive; includes 2026-10-30 UTC bars
   timeframe: m5
   price_side: bid
   sample_start: "2024-03-04"  # Monday
   sample_end: "2024-03-09"    # exclusive Saturday; weekday window avoids empty weekend artifacts
 
 daily:
-  end: "2026-10-30"           # exclusive complete-day cutoff
+  end: "2026-10-31"           # exclusive; last complete UTC day is 2026-10-30
 
 date_end_rules:
   dukascopy_node: >
