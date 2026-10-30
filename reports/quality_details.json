@@ -1,0 +1,3773 @@
+[
+  {
+    "path": "/root/workspace/commodity_history/data/daily/wti_eia_spot_daily.csv",
+    "instrument": "wti",
+    "kind": "wti_eia_daily",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 9532,
+    "columns": [
+      "date",
+      "price",
+      "instrument",
+      "provider_symbol",
+      "currency",
+      "unit",
+      "source",
+      "instrument_type"
+    ],
+    "start": "1986-01-02 00:00:00+00:00",
+    "end": "2026-10-27 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 2455,
+    "n_unknown_gaps": 842,
+    "gaps_preview": [
+      {
+        "gap_start": "1986-01-03 00:00:00+00:00",
+        "gap_end": "1986-01-06 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-01-10 00:00:00+00:00",
+        "gap_end": "1986-01-13 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-01-17 00:00:00+00:00",
+        "gap_end": "1986-01-20 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-01-24 00:00:00+00:00",
+        "gap_end": "1986-01-27 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-01-30 00:00:00+00:00",
+        "gap_end": "1986-02-03 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1986-02-07 00:00:00+00:00",
+        "gap_end": "1986-02-11 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1986-02-14 00:00:00+00:00",
+        "gap_end": "1986-02-18 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1986-02-21 00:00:00+00:00",
+        "gap_end": "1986-02-24 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-02-28 00:00:00+00:00",
+        "gap_end": "1986-03-03 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-03-03 00:00:00+00:00",
+        "gap_end": "1986-03-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1986-03-07 00:00:00+00:00",
+        "gap_end": "1986-03-10 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-03-14 00:00:00+00:00",
+        "gap_end": "1986-03-17 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-03-17 00:00:00+00:00",
+        "gap_end": "1986-03-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1986-03-21 00:00:00+00:00",
+        "gap_end": "1986-03-24 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-03-27 00:00:00+00:00",
+        "gap_end": "1986-03-31 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1986-04-04 00:00:00+00:00",
+        "gap_end": "1986-04-07 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-04-08 00:00:00+00:00",
+        "gap_end": "1986-04-10 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1986-04-11 00:00:00+00:00",
+        "gap_end": "1986-04-14 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-04-18 00:00:00+00:00",
+        "gap_end": "1986-04-21 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1986-04-25 00:00:00+00:00",
+        "gap_end": "1986-04-28 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 1,
+    "n_negative": 1,
+    "magnitude": {
+      "checked": true,
+      "min_observed": -36.98,
+      "max_observed": 145.31,
+      "median": 47.16,
+      "n_outside_expected": 0,
+      "expected_range": [
+        -50,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [
+      {
+        "position": 137,
+        "date": "1986-08-04",
+        "value": 14.0,
+        "prev": 11.56,
+        "pct_change": 0.21107266435986155
+      },
+      {
+        "position": 1113,
+        "date": "1990-08-06",
+        "value": 28.73,
+        "prev": 23.79,
+        "pct_change": 0.20765027322404378
+      },
+      {
+        "position": 1228,
+        "date": "1991-01-17",
+        "value": 21.48,
+        "prev": 32.25,
+        "pct_change": -0.333953488372093
+      },
+      {
+        "position": 3897,
+        "date": "2003-03-19",
+        "value": 30.01,
+        "prev": 37.87,
+        "pct_change": -0.20755215209928693
+      },
+      {
+        "position": 7871,
+        "date": "2020-03-09",
+        "value": 31.05,
+        "prev": 41.14,
+        "pct_change": -0.2452600875060768
+      },
+      {
+        "position": 7878,
+        "date": "2020-03-18",
+        "value": 20.48,
+        "prev": 26.96,
+        "pct_change": -0.2403560830860534
+      },
+      {
+        "position": 7879,
+        "date": "2020-03-19",
+        "value": 25.09,
+        "prev": 20.48,
+        "pct_change": 0.22509765624999997
+      },
+      {
+        "position": 7880,
+        "date": "2020-03-20",
+        "value": 19.48,
+        "prev": 25.09,
+        "pct_change": -0.22359505779194896
+      },
+      {
+        "position": 7887,
+        "date": "2020-03-31",
+        "value": 20.51,
+        "prev": 14.1,
+        "pct_change": 0.45460992907801434
+      },
+      {
+        "position": 7889,
+        "date": "2020-04-02",
+        "value": 25.18,
+        "prev": 20.28,
+        "pct_change": 0.24161735700197232
+      },
+      {
+        "position": 7900,
+        "date": "2020-04-20",
+        "value": -36.98,
+        "prev": 18.31,
+        "pct_change": -3.019661387220098
+      },
+      {
+        "position": 7901,
+        "date": "2020-04-21",
+        "value": 8.91,
+        "prev": -36.98,
+        "pct_change": 1.2409410492157924
+      },
+      {
+        "position": 7902,
+        "date": "2020-04-22",
+        "value": 13.64,
+        "prev": 8.91,
+        "pct_change": 0.5308641975308642
+      },
+      {
+        "position": 7905,
+        "date": "2020-04-27",
+        "value": 12.17,
+        "prev": 15.99,
+        "pct_change": -0.23889931207004378
+      },
+      {
+        "position": 7907,
+        "date": "2020-04-29",
+        "value": 15.04,
+        "prev": 12.4,
+        "pct_change": 0.21290322580645152
+      },
+      {
+        "position": 7908,
+        "date": "2020-04-30",
+        "value": 19.23,
+        "prev": 15.04,
+        "pct_change": 0.278590425531915
+      }
+    ],
+    "n_spikes": 16,
+    "ohlc_violations": null,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/brent_eia_spot_daily.csv",
+    "instrument": "brent",
+    "kind": "brent_eia_daily",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 9117,
+    "columns": [
+      "date",
+      "price",
+      "instrument",
+      "provider_symbol",
+      "currency",
+      "unit",
+      "source",
+      "instrument_type"
+    ],
+    "start": "1987-05-20 00:00:00+00:00",
+    "end": "2026-10-27 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 2342,
+    "n_unknown_gaps": 730,
+    "gaps_preview": [
+      {
+        "gap_start": "1987-05-22 00:00:00+00:00",
+        "gap_end": "1987-05-25 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-05-29 00:00:00+00:00",
+        "gap_end": "1987-06-01 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-06-05 00:00:00+00:00",
+        "gap_end": "1987-06-08 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-06-12 00:00:00+00:00",
+        "gap_end": "1987-06-16 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1987-06-19 00:00:00+00:00",
+        "gap_end": "1987-06-22 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-06-26 00:00:00+00:00",
+        "gap_end": "1987-06-29 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-07-03 00:00:00+00:00",
+        "gap_end": "1987-07-06 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-07-10 00:00:00+00:00",
+        "gap_end": "1987-07-13 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-07-17 00:00:00+00:00",
+        "gap_end": "1987-07-20 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-07-24 00:00:00+00:00",
+        "gap_end": "1987-07-27 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-07-31 00:00:00+00:00",
+        "gap_end": "1987-08-03 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-08-07 00:00:00+00:00",
+        "gap_end": "1987-08-10 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-08-14 00:00:00+00:00",
+        "gap_end": "1987-08-17 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-08-21 00:00:00+00:00",
+        "gap_end": "1987-08-24 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-08-28 00:00:00+00:00",
+        "gap_end": "1987-08-31 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-09-04 00:00:00+00:00",
+        "gap_end": "1987-09-07 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-09-11 00:00:00+00:00",
+        "gap_end": "1987-09-14 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-09-18 00:00:00+00:00",
+        "gap_end": "1987-09-21 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-09-25 00:00:00+00:00",
+        "gap_end": "1987-09-28 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1987-10-02 00:00:00+00:00",
+        "gap_end": "1987-10-05 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 9.1,
+      "max_observed": 143.95,
+      "median": 52.6,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [
+      {
+        "position": 926,
+        "date": "1991-01-17",
+        "value": 21.1,
+        "prev": 30.28,
+        "pct_change": -0.30317040951122853
+      },
+      {
+        "position": 7438,
+        "date": "2020-03-09",
+        "value": 35.33,
+        "prev": 45.6,
+        "pct_change": -0.2252192982456141
+      },
+      {
+        "position": 7454,
+        "date": "2020-03-31",
+        "value": 14.85,
+        "prev": 19.19,
+        "pct_change": -0.22615945805106832
+      },
+      {
+        "position": 7456,
+        "date": "2020-04-02",
+        "value": 20.24,
+        "prev": 14.97,
+        "pct_change": 0.3520374081496324
+      },
+      {
+        "position": 7457,
+        "date": "2020-04-03",
+        "value": 24.33,
+        "prev": 20.24,
+        "pct_change": 0.20207509881422925
+      },
+      {
+        "position": 7467,
+        "date": "2020-04-21",
+        "value": 9.12,
+        "prev": 17.36,
+        "pct_change": -0.4746543778801844
+      },
+      {
+        "position": 7468,
+        "date": "2020-04-22",
+        "value": 13.77,
+        "prev": 9.12,
+        "pct_change": 0.5098684210526316
+      },
+      {
+        "position": 7477,
+        "date": "2020-05-05",
+        "value": 25.46,
+        "prev": 20.4,
+        "pct_change": 0.24803921568627463
+      }
+    ],
+    "n_spikes": 8,
+    "ohlc_violations": null,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/monthly_reference/gold_indexmundi_monthly.csv",
+    "instrument": "gold",
+    "kind": "gold_indexmundi_monthly",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 355,
+    "columns": [
+      "date",
+      "price",
+      "instrument",
+      "provider_symbol",
+      "currency",
+      "unit",
+      "source",
+      "instrument_type",
+      "benchmark_description",
+      "originating_source"
+    ],
+    "start": "1996-09-01 00:00:00+00:00",
+    "end": "2026-03-01 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 0,
+    "n_unknown_gaps": 0,
+    "gaps_preview": [],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 256.08,
+      "max_observed": 5019.97,
+      "median": 1198.39,
+      "n_outside_expected": 0,
+      "expected_range": [
+        200,
+        20000
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": null,
+    "quality": "pass"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/monthly_reference/gold_worldbank_pinksheet_monthly.csv",
+    "instrument": "gold",
+    "kind": "gold_worldbank_monthly",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 780,
+    "columns": [
+      "date",
+      "price",
+      "instrument",
+      "provider_symbol",
+      "currency",
+      "unit",
+      "source",
+      "instrument_type",
+      "benchmark_description"
+    ],
+    "start": "1960-01-01 00:00:00+00:00",
+    "end": "2024-12-01 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 0,
+    "n_unknown_gaps": 0,
+    "gaps_preview": [],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 34.94,
+      "max_observed": 2690.08,
+      "median": 373.98,
+      "n_outside_expected": 223,
+      "expected_range": [
+        200,
+        20000
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [
+      {
+        "position": 168,
+        "date": "1974-01-01",
+        "value": 129.19,
+        "prev": 106.72,
+        "pct_change": 0.21055097451274363
+      },
+      {
+        "position": 240,
+        "date": "1980-01-01",
+        "value": 675.31,
+        "prev": 455.08,
+        "pct_change": 0.4839368902171046
+      },
+      {
+        "position": 272,
+        "date": "1982-09-01",
+        "value": 437.31,
+        "prev": 364.23,
+        "pct_change": 0.20064245119841853
+      }
+    ],
+    "n_spikes": 3,
+    "ohlc_violations": null,
+    "quality": "pass"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/monthly_reference/silver_indexmundi_monthly.csv",
+    "instrument": "silver",
+    "kind": "silver_indexmundi_monthly",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 355,
+    "columns": [
+      "date",
+      "price",
+      "instrument",
+      "provider_symbol",
+      "currency",
+      "unit",
+      "source",
+      "instrument_type",
+      "benchmark_description",
+      "originating_source"
+    ],
+    "start": "1996-09-01 00:00:00+00:00",
+    "end": "2026-03-01 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 0,
+    "n_unknown_gaps": 0,
+    "gaps_preview": [],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 4.12,
+      "max_observed": 92.06,
+      "median": 16.15,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        500
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [
+      {
+        "position": 115,
+        "date": "2006-04-01",
+        "value": 12.61,
+        "prev": 10.38,
+        "pct_change": 0.21483622350674358
+      },
+      {
+        "position": 287,
+        "date": "2020-08-01",
+        "value": 27.0,
+        "prev": 20.65,
+        "pct_change": 0.30750605326876523
+      },
+      {
+        "position": 351,
+        "date": "2025-12-01",
+        "value": 62.34,
+        "prev": 50.43,
+        "pct_change": 0.2361689470553243
+      },
+      {
+        "position": 352,
+        "date": "2026-01-01",
+        "value": 92.06,
+        "prev": 62.34,
+        "pct_change": 0.47674045556624955
+      }
+    ],
+    "n_spikes": 4,
+    "ohlc_violations": null,
+    "quality": "pass"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/monthly_reference/silver_worldbank_pinksheet_monthly.csv",
+    "instrument": "silver",
+    "kind": "silver_worldbank_monthly",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 780,
+    "columns": [
+      "date",
+      "price",
+      "instrument",
+      "provider_symbol",
+      "currency",
+      "unit",
+      "source",
+      "instrument_type",
+      "benchmark_description"
+    ],
+    "start": "1960-01-01 00:00:00+00:00",
+    "end": "2024-12-01 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 0,
+    "n_unknown_gaps": 0,
+    "gaps_preview": [],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 0.9137,
+      "max_observed": 42.6952,
+      "median": 5.469099999999999,
+      "n_outside_expected": 23,
+      "expected_range": [
+        1,
+        500
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [
+      {
+        "position": 90,
+        "date": "1967-07-01",
+        "value": 1.5929,
+        "prev": 1.301,
+        "pct_change": 0.22436587240584172
+      },
+      {
+        "position": 169,
+        "date": "1974-02-01",
+        "value": 5.35895,
+        "prev": 3.63695,
+        "pct_change": 0.47347365237355477
+      },
+      {
+        "position": 236,
+        "date": "1979-09-01",
+        "value": 13.7593,
+        "prev": 9.3067,
+        "pct_change": 0.4784295185189166
+      },
+      {
+        "position": 237,
+        "date": "1979-10-01",
+        "value": 16.6331,
+        "prev": 13.7593,
+        "pct_change": 0.2088623694519343
+      },
+      {
+        "position": 239,
+        "date": "1979-12-01",
+        "value": 22.4504,
+        "prev": 16.6502,
+        "pct_change": 0.34835617590179074
+      },
+      {
+        "position": 240,
+        "date": "1980-01-01",
+        "value": 38.8756,
+        "prev": 22.4504,
+        "pct_change": 0.731621708299184
+      },
+      {
+        "position": 242,
+        "date": "1980-03-01",
+        "value": 24.73,
+        "prev": 35.2435,
+        "pct_change": -0.2983103267269141
+      },
+      {
+        "position": 243,
+        "date": "1980-04-01",
+        "value": 14.9487,
+        "prev": 24.73,
+        "pct_change": -0.39552365547917506
+      },
+      {
+        "position": 245,
+        "date": "1980-06-01",
+        "value": 15.7834,
+        "prev": 12.6761,
+        "pct_change": 0.24513060010571078
+      },
+      {
+        "position": 248,
+        "date": "1980-09-01",
+        "value": 19.8868,
+        "prev": 15.9418,
+        "pct_change": 0.24746264537254264
+      },
+      {
+        "position": 272,
+        "date": "1982-09-01",
+        "value": 8.7818,
+        "prev": 7.1078,
+        "pct_change": 0.23551591209657002
+      },
+      {
+        "position": 278,
+        "date": "1983-03-01",
+        "value": 10.6403,
+        "prev": 13.9756,
+        "pct_change": -0.23865165001860386
+      },
+      {
+        "position": 327,
+        "date": "1987-04-01",
+        "value": 7.3495,
+        "prev": 5.6644,
+        "pct_change": 0.29748958406892173
+      },
+      {
+        "position": 555,
+        "date": "2006-04-01",
+        "value": 12.6144,
+        "prev": 10.3838,
+        "pct_change": 0.2148153855043432
+      },
+      {
+        "position": 727,
+        "date": "2020-08-01",
+        "value": 27.003,
+        "prev": 20.647,
+        "pct_change": 0.30784133288129034
+      }
+    ],
+    "n_spikes": 15,
+    "ohlc_violations": null,
+    "quality": "pass"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/monthly_reference/copper_indexmundi_monthly.csv",
+    "instrument": "copper",
+    "kind": "copper_indexmundi_monthly",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 355,
+    "columns": [
+      "date",
+      "price",
+      "instrument",
+      "provider_symbol",
+      "currency",
+      "unit",
+      "source",
+      "instrument_type",
+      "benchmark_description",
+      "originating_source"
+    ],
+    "start": "1996-09-01 00:00:00+00:00",
+    "end": "2026-03-01 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 0,
+    "n_unknown_gaps": 0,
+    "gaps_preview": [],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 1377.28,
+      "max_observed": 13012.0,
+      "median": 6196.43,
+      "n_outside_expected": 0,
+      "expected_range": [
+        500,
+        30000
+      ],
+      "unit": "USD/metric ton"
+    },
+    "spikes": [
+      {
+        "position": 115,
+        "date": "2006-04-01",
+        "value": 6387.78,
+        "prev": 5102.85,
+        "pct_change": 0.25180634351391856
+      },
+      {
+        "position": 116,
+        "date": "2006-05-01",
+        "value": 8045.86,
+        "prev": 6387.78,
+        "pct_change": 0.25957061764807177
+      },
+      {
+        "position": 127,
+        "date": "2007-04-01",
+        "value": 7766.47,
+        "prev": 6452.48,
+        "pct_change": 0.20364108063876227
+      },
+      {
+        "position": 145,
+        "date": "2008-10-01",
+        "value": 4925.7,
+        "prev": 6990.86,
+        "pct_change": -0.29540857634110823
+      },
+      {
+        "position": 146,
+        "date": "2008-11-01",
+        "value": 3717.0,
+        "prev": 4925.7,
+        "pct_change": -0.2453864425360862
+      }
+    ],
+    "n_spikes": 5,
+    "ohlc_violations": null,
+    "quality": "pass"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/monthly_reference/copper_worldbank_pinksheet_monthly.csv",
+    "instrument": "copper",
+    "kind": "copper_worldbank_monthly",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 780,
+    "columns": [
+      "date",
+      "price",
+      "instrument",
+      "provider_symbol",
+      "currency",
+      "unit",
+      "source",
+      "instrument_type",
+      "benchmark_description"
+    ],
+    "start": "1960-01-01 00:00:00+00:00",
+    "end": "2024-12-01 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 0,
+    "n_unknown_gaps": 0,
+    "gaps_preview": [],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 606.71,
+      "max_observed": 10230.89,
+      "median": 1960.79,
+      "n_outside_expected": 0,
+      "expected_range": [
+        500,
+        30000
+      ],
+      "unit": "USD/metric ton"
+    },
+    "spikes": [
+      {
+        "position": 60,
+        "date": "1965-01-01",
+        "value": 1000.68,
+        "prev": 1269.2,
+        "pct_change": -0.21156634100220617
+      },
+      {
+        "position": 79,
+        "date": "1966-08-01",
+        "value": 1195.34,
+        "prev": 1567.93,
+        "pct_change": -0.23763178203108565
+      },
+      {
+        "position": 94,
+        "date": "1967-11-01",
+        "value": 1443.81,
+        "prev": 1138.47,
+        "pct_change": 0.2682020606603599
+      },
+      {
+        "position": 97,
+        "date": "1968-02-01",
+        "value": 1719.82,
+        "prev": 1408.75,
+        "pct_change": 0.22081277728482693
+      },
+      {
+        "position": 99,
+        "date": "1968-04-01",
+        "value": 1255.09,
+        "prev": 1701.08,
+        "pct_change": -0.2621804970959626
+      },
+      {
+        "position": 158,
+        "date": "1973-03-01",
+        "value": 1509.5,
+        "prev": 1243.6,
+        "pct_change": 0.21381473142489554
+      },
+      {
+        "position": 174,
+        "date": "1974-07-01",
+        "value": 1919.1,
+        "prev": 2440.0,
+        "pct_change": -0.21348360655737708
+      },
+      {
+        "position": 242,
+        "date": "1980-03-01",
+        "value": 2306.0,
+        "prev": 2918.0,
+        "pct_change": -0.20973269362577107
+      },
+      {
+        "position": 334,
+        "date": "1987-11-01",
+        "value": 2523.9,
+        "prev": 1967.2,
+        "pct_change": 0.2829910532736885
+      },
+      {
+        "position": 345,
+        "date": "1988-10-01",
+        "value": 2939.51,
+        "prev": 2435.53,
+        "pct_change": 0.20692826612687998
+      },
+      {
+        "position": 555,
+        "date": "2006-04-01",
+        "value": 6387.778,
+        "prev": 5102.848,
+        "pct_change": 0.2518064422063915
+      },
+      {
+        "position": 556,
+        "date": "2006-05-01",
+        "value": 8045.857,
+        "prev": 6387.778,
+        "pct_change": 0.2595705423701324
+      },
+      {
+        "position": 567,
+        "date": "2007-04-01",
+        "value": 7766.474,
+        "prev": 6452.477,
+        "pct_change": 0.20364226017388365
+      },
+      {
+        "position": 585,
+        "date": "2008-10-01",
+        "value": 4925.696,
+        "prev": 6990.864,
+        "pct_change": -0.295409551666289
+      },
+      {
+        "position": 586,
+        "date": "2008-11-01",
+        "value": 3717.0,
+        "prev": 4925.696,
+        "pct_change": -0.24538582973857906
+      }
+    ],
+    "n_spikes": 15,
+    "ohlc_violations": null,
+    "quality": "pass"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/gold_dukascopy_native_d1.csv",
+    "instrument": "gold",
+    "kind": "gold_dukascopy_d1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 8312,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "1999-06-03 00:00:00+00:00",
+    "end": "2026-10-29 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 1444,
+    "n_unknown_gaps": 1247,
+    "gaps_preview": [
+      {
+        "gap_start": "1999-06-04 00:00:00+00:00",
+        "gap_end": "1999-06-07 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-06-11 00:00:00+00:00",
+        "gap_end": "1999-06-14 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-06-18 00:00:00+00:00",
+        "gap_end": "1999-06-21 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-06-25 00:00:00+00:00",
+        "gap_end": "1999-06-28 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-07-02 00:00:00+00:00",
+        "gap_end": "1999-07-06 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1999-07-09 00:00:00+00:00",
+        "gap_end": "1999-07-12 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-07-16 00:00:00+00:00",
+        "gap_end": "1999-07-19 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-07-20 00:00:00+00:00",
+        "gap_end": "1999-07-22 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1999-07-23 00:00:00+00:00",
+        "gap_end": "1999-07-26 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-07-30 00:00:00+00:00",
+        "gap_end": "1999-08-02 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-06 00:00:00+00:00",
+        "gap_end": "1999-08-09 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-13 00:00:00+00:00",
+        "gap_end": "1999-08-16 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-20 00:00:00+00:00",
+        "gap_end": "1999-08-23 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-27 00:00:00+00:00",
+        "gap_end": "1999-08-30 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-31 00:00:00+00:00",
+        "gap_end": "1999-09-02 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1999-09-02 00:00:00+00:00",
+        "gap_end": "1999-09-07 00:00:00+00:00",
+        "n_missing_slots": 4,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1999-09-10 00:00:00+00:00",
+        "gap_end": "1999-09-13 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-09-13 00:00:00+00:00",
+        "gap_end": "1999-09-15 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1999-09-17 00:00:00+00:00",
+        "gap_end": "1999-09-20 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-09-24 00:00:00+00:00",
+        "gap_end": "1999-09-27 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 252.1,
+      "max_observed": 5512.255,
+      "median": 1252.9405000000002,
+      "n_outside_expected": 0,
+      "expected_range": [
+        200,
+        20000
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 122,
+    "quality": "warn_ohlc_source"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/gold_dukascopy_utc_daily_from_m5.csv",
+    "instrument": "gold",
+    "kind": "gold_utc_daily_from_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 934,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 00:00:00+00:00",
+    "end": "2025-12-31 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 156,
+    "n_unknown_gaps": 154,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-06 00:00:00+00:00",
+        "gap_end": "2023-01-08 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 00:00:00+00:00",
+        "gap_end": "2023-01-15 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 00:00:00+00:00",
+        "gap_end": "2023-01-22 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-27 00:00:00+00:00",
+        "gap_end": "2023-01-29 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-03 00:00:00+00:00",
+        "gap_end": "2023-02-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-10 00:00:00+00:00",
+        "gap_end": "2023-02-12 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-17 00:00:00+00:00",
+        "gap_end": "2023-02-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-24 00:00:00+00:00",
+        "gap_end": "2023-02-26 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-03 00:00:00+00:00",
+        "gap_end": "2023-03-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-10 00:00:00+00:00",
+        "gap_end": "2023-03-12 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-17 00:00:00+00:00",
+        "gap_end": "2023-03-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-24 00:00:00+00:00",
+        "gap_end": "2023-03-26 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-31 00:00:00+00:00",
+        "gap_end": "2023-04-02 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-06 00:00:00+00:00",
+        "gap_end": "2023-04-09 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-14 00:00:00+00:00",
+        "gap_end": "2023-04-16 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-21 00:00:00+00:00",
+        "gap_end": "2023-04-23 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-28 00:00:00+00:00",
+        "gap_end": "2023-04-30 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-05 00:00:00+00:00",
+        "gap_end": "2023-05-07 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-12 00:00:00+00:00",
+        "gap_end": "2023-05-14 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-19 00:00:00+00:00",
+        "gap_end": "2023-05-21 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 1810.665,
+      "max_observed": 4532.365,
+      "median": 2384.2165,
+      "n_outside_expected": 0,
+      "expected_range": [
+        200,
+        20000
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/intraday_5m/gold/dukascopy/gold_m5_bid_all.csv",
+    "instrument": "gold",
+    "kind": "gold_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 212736,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 23:00:00+00:00",
+    "end": "2025-12-31 21:55:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 780,
+    "n_unknown_gaps": 629,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 21:55:00+00:00",
+        "gap_end": "2023-01-03 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:55:00+00:00",
+        "gap_end": "2023-01-04 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:55:00+00:00",
+        "gap_end": "2023-01-05 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:55:00+00:00",
+        "gap_end": "2023-01-08 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-09 21:55:00+00:00",
+        "gap_end": "2023-01-09 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 21:55:00+00:00",
+        "gap_end": "2023-01-10 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:55:00+00:00",
+        "gap_end": "2023-01-11 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:55:00+00:00",
+        "gap_end": "2023-01-12 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:55:00+00:00",
+        "gap_end": "2023-01-15 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-16 17:55:00+00:00",
+        "gap_end": "2023-01-16 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-17 21:55:00+00:00",
+        "gap_end": "2023-01-17 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-18 21:55:00+00:00",
+        "gap_end": "2023-01-18 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-19 21:55:00+00:00",
+        "gap_end": "2023-01-19 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 21:55:00+00:00",
+        "gap_end": "2023-01-22 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-23 21:55:00+00:00",
+        "gap_end": "2023-01-23 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-24 21:55:00+00:00",
+        "gap_end": "2023-01-24 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-25 21:55:00+00:00",
+        "gap_end": "2023-01-25 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-26 21:55:00+00:00",
+        "gap_end": "2023-01-26 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-27 21:55:00+00:00",
+        "gap_end": "2023-01-29 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-30 21:55:00+00:00",
+        "gap_end": "2023-01-30 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 1806.855,
+      "max_observed": 4548.365,
+      "median": 2381.5,
+      "n_outside_expected": 0,
+      "expected_range": [
+        200,
+        20000
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/silver_dukascopy_native_d1.csv",
+    "instrument": "silver",
+    "kind": "silver_dukascopy_d1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 8299,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "1999-06-03 00:00:00+00:00",
+    "end": "2026-10-29 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 1442,
+    "n_unknown_gaps": 1235,
+    "gaps_preview": [
+      {
+        "gap_start": "1999-06-04 00:00:00+00:00",
+        "gap_end": "1999-06-07 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-06-11 00:00:00+00:00",
+        "gap_end": "1999-06-14 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-06-18 00:00:00+00:00",
+        "gap_end": "1999-06-21 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-06-25 00:00:00+00:00",
+        "gap_end": "1999-06-28 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-07-02 00:00:00+00:00",
+        "gap_end": "1999-07-06 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1999-07-09 00:00:00+00:00",
+        "gap_end": "1999-07-12 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-07-16 00:00:00+00:00",
+        "gap_end": "1999-07-19 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-07-20 00:00:00+00:00",
+        "gap_end": "1999-07-22 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1999-07-23 00:00:00+00:00",
+        "gap_end": "1999-07-26 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-07-30 00:00:00+00:00",
+        "gap_end": "1999-08-02 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-06 00:00:00+00:00",
+        "gap_end": "1999-08-09 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-13 00:00:00+00:00",
+        "gap_end": "1999-08-16 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-20 00:00:00+00:00",
+        "gap_end": "1999-08-23 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-08-27 00:00:00+00:00",
+        "gap_end": "1999-08-30 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-09-03 00:00:00+00:00",
+        "gap_end": "1999-09-07 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1999-09-10 00:00:00+00:00",
+        "gap_end": "1999-09-13 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-09-17 00:00:00+00:00",
+        "gap_end": "1999-09-20 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-09-24 00:00:00+00:00",
+        "gap_end": "1999-09-27 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-10-01 00:00:00+00:00",
+        "gap_end": "1999-10-04 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1999-10-08 00:00:00+00:00",
+        "gap_end": "1999-10-11 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 4.05,
+      "max_observed": 117.755,
+      "median": 17.039,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        500
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [
+      {
+        "position": 8066,
+        "date": "2026-01-30 00:00:00+00:00",
+        "value": 85.286,
+        "prev": 117.6,
+        "pct_change": -0.2747789115646258
+      },
+      {
+        "position": 8071,
+        "date": "2026-02-05 00:00:00+00:00",
+        "value": 67.113,
+        "prev": 89.604,
+        "pct_change": -0.25100441944556046
+      }
+    ],
+    "n_spikes": 2,
+    "ohlc_violations": 132,
+    "quality": "warn_ohlc_source"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/silver_dukascopy_utc_daily_from_m5.csv",
+    "instrument": "silver",
+    "kind": "silver_utc_daily_from_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 934,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 00:00:00+00:00",
+    "end": "2025-12-31 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 156,
+    "n_unknown_gaps": 154,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-06 00:00:00+00:00",
+        "gap_end": "2023-01-08 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 00:00:00+00:00",
+        "gap_end": "2023-01-15 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 00:00:00+00:00",
+        "gap_end": "2023-01-22 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-27 00:00:00+00:00",
+        "gap_end": "2023-01-29 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-03 00:00:00+00:00",
+        "gap_end": "2023-02-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-10 00:00:00+00:00",
+        "gap_end": "2023-02-12 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-17 00:00:00+00:00",
+        "gap_end": "2023-02-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-24 00:00:00+00:00",
+        "gap_end": "2023-02-26 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-03 00:00:00+00:00",
+        "gap_end": "2023-03-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-10 00:00:00+00:00",
+        "gap_end": "2023-03-12 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-17 00:00:00+00:00",
+        "gap_end": "2023-03-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-24 00:00:00+00:00",
+        "gap_end": "2023-03-26 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-31 00:00:00+00:00",
+        "gap_end": "2023-04-02 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-06 00:00:00+00:00",
+        "gap_end": "2023-04-09 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-14 00:00:00+00:00",
+        "gap_end": "2023-04-16 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-21 00:00:00+00:00",
+        "gap_end": "2023-04-23 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-28 00:00:00+00:00",
+        "gap_end": "2023-04-30 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-05 00:00:00+00:00",
+        "gap_end": "2023-05-07 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-12 00:00:00+00:00",
+        "gap_end": "2023-05-14 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-19 00:00:00+00:00",
+        "gap_end": "2023-05-21 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 20.027,
+      "max_observed": 81.814,
+      "median": 29.049500000000002,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        500
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/intraday_5m/silver/dukascopy/silver_m5_bid_all.csv",
+    "instrument": "silver",
+    "kind": "silver_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 212634,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 23:00:00+00:00",
+    "end": "2025-12-31 21:55:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 819,
+    "n_unknown_gaps": 668,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 21:55:00+00:00",
+        "gap_end": "2023-01-03 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:55:00+00:00",
+        "gap_end": "2023-01-04 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:55:00+00:00",
+        "gap_end": "2023-01-05 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:55:00+00:00",
+        "gap_end": "2023-01-08 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-09 21:55:00+00:00",
+        "gap_end": "2023-01-09 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 21:55:00+00:00",
+        "gap_end": "2023-01-10 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:55:00+00:00",
+        "gap_end": "2023-01-11 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:55:00+00:00",
+        "gap_end": "2023-01-12 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:55:00+00:00",
+        "gap_end": "2023-01-15 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-16 17:55:00+00:00",
+        "gap_end": "2023-01-16 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-17 21:55:00+00:00",
+        "gap_end": "2023-01-17 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-18 21:55:00+00:00",
+        "gap_end": "2023-01-18 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-19 21:55:00+00:00",
+        "gap_end": "2023-01-19 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 21:55:00+00:00",
+        "gap_end": "2023-01-22 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-23 21:55:00+00:00",
+        "gap_end": "2023-01-23 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-24 21:55:00+00:00",
+        "gap_end": "2023-01-24 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-25 21:55:00+00:00",
+        "gap_end": "2023-01-25 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-26 21:55:00+00:00",
+        "gap_end": "2023-01-26 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-27 21:55:00+00:00",
+        "gap_end": "2023-01-29 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-30 21:55:00+00:00",
+        "gap_end": "2023-01-30 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 19.893,
+      "max_observed": 83.384,
+      "median": 29.078,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        500
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/copper_dukascopy_native_d1.csv",
+    "instrument": "copper",
+    "kind": "copper_dukascopy_d1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 4550,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2012-03-04 00:00:00+00:00",
+    "end": "2026-10-29 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 770,
+    "n_unknown_gaps": 762,
+    "gaps_preview": [
+      {
+        "gap_start": "2012-03-09 00:00:00+00:00",
+        "gap_end": "2012-03-11 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-03-16 00:00:00+00:00",
+        "gap_end": "2012-03-18 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-03-23 00:00:00+00:00",
+        "gap_end": "2012-03-25 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-03-30 00:00:00+00:00",
+        "gap_end": "2012-04-01 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-04-05 00:00:00+00:00",
+        "gap_end": "2012-04-08 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-04-13 00:00:00+00:00",
+        "gap_end": "2012-04-15 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-04-20 00:00:00+00:00",
+        "gap_end": "2012-04-22 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-04-27 00:00:00+00:00",
+        "gap_end": "2012-04-29 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-05-04 00:00:00+00:00",
+        "gap_end": "2012-05-06 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-05-11 00:00:00+00:00",
+        "gap_end": "2012-05-13 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-05-18 00:00:00+00:00",
+        "gap_end": "2012-05-20 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-05-25 00:00:00+00:00",
+        "gap_end": "2012-05-27 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-06-01 00:00:00+00:00",
+        "gap_end": "2012-06-03 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-06-08 00:00:00+00:00",
+        "gap_end": "2012-06-10 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-06-15 00:00:00+00:00",
+        "gap_end": "2012-06-17 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-06-22 00:00:00+00:00",
+        "gap_end": "2012-06-24 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-06-29 00:00:00+00:00",
+        "gap_end": "2012-07-01 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-07-06 00:00:00+00:00",
+        "gap_end": "2012-07-08 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-07-13 00:00:00+00:00",
+        "gap_end": "2012-07-15 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2012-07-20 00:00:00+00:00",
+        "gap_end": "2012-07-22 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 1.9398,
+      "max_observed": 6.8998,
+      "median": 3.29895,
+      "n_outside_expected": 0,
+      "expected_range": [
+        0.5,
+        20
+      ],
+      "unit": "USD/lb"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/copper_dukascopy_utc_daily_from_m5.csv",
+    "instrument": "copper",
+    "kind": "copper_utc_daily_from_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 934,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 00:00:00+00:00",
+    "end": "2025-12-31 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 156,
+    "n_unknown_gaps": 154,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-06 00:00:00+00:00",
+        "gap_end": "2023-01-08 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 00:00:00+00:00",
+        "gap_end": "2023-01-15 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 00:00:00+00:00",
+        "gap_end": "2023-01-22 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-27 00:00:00+00:00",
+        "gap_end": "2023-01-29 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-03 00:00:00+00:00",
+        "gap_end": "2023-02-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-10 00:00:00+00:00",
+        "gap_end": "2023-02-12 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-17 00:00:00+00:00",
+        "gap_end": "2023-02-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-24 00:00:00+00:00",
+        "gap_end": "2023-02-26 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-03 00:00:00+00:00",
+        "gap_end": "2023-03-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-10 00:00:00+00:00",
+        "gap_end": "2023-03-12 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-17 00:00:00+00:00",
+        "gap_end": "2023-03-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-24 00:00:00+00:00",
+        "gap_end": "2023-03-26 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-31 00:00:00+00:00",
+        "gap_end": "2023-04-02 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-06 00:00:00+00:00",
+        "gap_end": "2023-04-09 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-14 00:00:00+00:00",
+        "gap_end": "2023-04-16 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-21 00:00:00+00:00",
+        "gap_end": "2023-04-23 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-28 00:00:00+00:00",
+        "gap_end": "2023-04-30 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-05 00:00:00+00:00",
+        "gap_end": "2023-05-07 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-12 00:00:00+00:00",
+        "gap_end": "2023-05-14 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-19 00:00:00+00:00",
+        "gap_end": "2023-05-21 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 3.5506,
+      "max_observed": 5.8505,
+      "median": 4.2183,
+      "n_outside_expected": 0,
+      "expected_range": [
+        0.5,
+        20
+      ],
+      "unit": "USD/lb"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/intraday_5m/copper/dukascopy/copper_m5_bid_all.csv",
+    "instrument": "copper",
+    "kind": "copper_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 212118,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 23:00:00+00:00",
+    "end": "2025-12-31 21:55:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 1011,
+    "n_unknown_gaps": 860,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 21:55:00+00:00",
+        "gap_end": "2023-01-03 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:55:00+00:00",
+        "gap_end": "2023-01-04 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:55:00+00:00",
+        "gap_end": "2023-01-05 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:55:00+00:00",
+        "gap_end": "2023-01-08 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-09 21:55:00+00:00",
+        "gap_end": "2023-01-09 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 21:55:00+00:00",
+        "gap_end": "2023-01-10 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:55:00+00:00",
+        "gap_end": "2023-01-11 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:55:00+00:00",
+        "gap_end": "2023-01-12 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:55:00+00:00",
+        "gap_end": "2023-01-15 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-16 17:55:00+00:00",
+        "gap_end": "2023-01-16 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-17 21:55:00+00:00",
+        "gap_end": "2023-01-17 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-18 21:55:00+00:00",
+        "gap_end": "2023-01-18 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-19 21:55:00+00:00",
+        "gap_end": "2023-01-19 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 21:55:00+00:00",
+        "gap_end": "2023-01-22 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-23 21:55:00+00:00",
+        "gap_end": "2023-01-23 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-24 21:55:00+00:00",
+        "gap_end": "2023-01-24 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-25 21:55:00+00:00",
+        "gap_end": "2023-01-25 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-26 21:55:00+00:00",
+        "gap_end": "2023-01-26 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-27 21:55:00+00:00",
+        "gap_end": "2023-01-29 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-30 21:55:00+00:00",
+        "gap_end": "2023-01-30 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 3.5189,
+      "max_observed": 5.9499,
+      "median": 4.2197,
+      "n_outside_expected": 0,
+      "expected_range": [
+        0.5,
+        20
+      ],
+      "unit": "USD/lb"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/wti_dukascopy_native_d1.csv",
+    "instrument": "wti",
+    "kind": "wti_dukascopy_d1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 9271,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "1992-12-31 00:00:00+00:00",
+    "end": "2026-10-29 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 1774,
+    "n_unknown_gaps": 876,
+    "gaps_preview": [
+      {
+        "gap_start": "1992-12-31 00:00:00+00:00",
+        "gap_end": "1993-01-04 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1993-01-08 00:00:00+00:00",
+        "gap_end": "1993-01-11 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-01-15 00:00:00+00:00",
+        "gap_end": "1993-01-18 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-01-22 00:00:00+00:00",
+        "gap_end": "1993-01-25 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-01-29 00:00:00+00:00",
+        "gap_end": "1993-02-01 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-02-05 00:00:00+00:00",
+        "gap_end": "1993-02-08 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-02-12 00:00:00+00:00",
+        "gap_end": "1993-02-16 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1993-02-19 00:00:00+00:00",
+        "gap_end": "1993-02-22 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-02-26 00:00:00+00:00",
+        "gap_end": "1993-03-02 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1993-03-05 00:00:00+00:00",
+        "gap_end": "1993-03-08 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-03-12 00:00:00+00:00",
+        "gap_end": "1993-03-15 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-03-19 00:00:00+00:00",
+        "gap_end": "1993-03-22 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-03-26 00:00:00+00:00",
+        "gap_end": "1993-03-29 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-04-02 00:00:00+00:00",
+        "gap_end": "1993-04-05 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-04-08 00:00:00+00:00",
+        "gap_end": "1993-04-12 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "1993-04-16 00:00:00+00:00",
+        "gap_end": "1993-04-19 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-04-23 00:00:00+00:00",
+        "gap_end": "1993-04-26 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-04-30 00:00:00+00:00",
+        "gap_end": "1993-05-03 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-05-07 00:00:00+00:00",
+        "gap_end": "1993-05-10 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "1993-05-14 00:00:00+00:00",
+        "gap_end": "1993-05-17 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 10.72,
+      "max_observed": 145.29,
+      "median": 57.035,
+      "n_outside_expected": 0,
+      "expected_range": [
+        -50,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [
+      {
+        "position": 7204,
+        "date": "2020-03-08 00:00:00+00:00",
+        "value": 32.49,
+        "prev": 41.586,
+        "pct_change": -0.21872745635550417
+      },
+      {
+        "position": 7239,
+        "date": "2020-04-19 00:00:00+00:00",
+        "value": 24.365,
+        "prev": 18.31,
+        "pct_change": 0.3306936100491535
+      },
+      {
+        "position": 7241,
+        "date": "2020-04-21 00:00:00+00:00",
+        "value": 14.0,
+        "prev": 21.245,
+        "pct_change": -0.3410214168039539
+      },
+      {
+        "position": 7246,
+        "date": "2020-04-27 00:00:00+00:00",
+        "value": 12.23,
+        "prev": 16.605,
+        "pct_change": -0.2634748569707919
+      },
+      {
+        "position": 7248,
+        "date": "2020-04-29 00:00:00+00:00",
+        "value": 15.97,
+        "prev": 13.28,
+        "pct_change": 0.20256024096385553
+      },
+      {
+        "position": 7249,
+        "date": "2020-04-30 00:00:00+00:00",
+        "value": 19.535,
+        "prev": 15.97,
+        "pct_change": 0.22323105823418907
+      },
+      {
+        "position": 7253,
+        "date": "2020-05-05 00:00:00+00:00",
+        "value": 25.715,
+        "prev": 21.385,
+        "pct_change": 0.20247837269113855
+      }
+    ],
+    "n_spikes": 7,
+    "ohlc_violations": 23,
+    "quality": "warn_ohlc_source"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/wti_dukascopy_utc_daily_from_m5.csv",
+    "instrument": "wti",
+    "kind": "wti_utc_daily_from_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 934,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 00:00:00+00:00",
+    "end": "2025-12-31 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 156,
+    "n_unknown_gaps": 154,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-06 00:00:00+00:00",
+        "gap_end": "2023-01-08 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 00:00:00+00:00",
+        "gap_end": "2023-01-15 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 00:00:00+00:00",
+        "gap_end": "2023-01-22 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-27 00:00:00+00:00",
+        "gap_end": "2023-01-29 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-03 00:00:00+00:00",
+        "gap_end": "2023-02-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-10 00:00:00+00:00",
+        "gap_end": "2023-02-12 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-17 00:00:00+00:00",
+        "gap_end": "2023-02-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-02-24 00:00:00+00:00",
+        "gap_end": "2023-02-26 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-03 00:00:00+00:00",
+        "gap_end": "2023-03-05 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-10 00:00:00+00:00",
+        "gap_end": "2023-03-12 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-17 00:00:00+00:00",
+        "gap_end": "2023-03-19 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-24 00:00:00+00:00",
+        "gap_end": "2023-03-26 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-03-31 00:00:00+00:00",
+        "gap_end": "2023-04-02 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-06 00:00:00+00:00",
+        "gap_end": "2023-04-09 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-14 00:00:00+00:00",
+        "gap_end": "2023-04-16 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-21 00:00:00+00:00",
+        "gap_end": "2023-04-23 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-28 00:00:00+00:00",
+        "gap_end": "2023-04-30 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-05 00:00:00+00:00",
+        "gap_end": "2023-05-07 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-12 00:00:00+00:00",
+        "gap_end": "2023-05-14 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-05-19 00:00:00+00:00",
+        "gap_end": "2023-05-21 00:00:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 55.412,
+      "max_observed": 93.823,
+      "median": 72.94800000000001,
+      "n_outside_expected": 0,
+      "expected_range": [
+        -50,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/intraday_5m/wti/dukascopy/wti_m5_bid_all.csv",
+    "instrument": "wti",
+    "kind": "wti_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 212410,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 23:00:00+00:00",
+    "end": "2025-12-31 21:55:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 834,
+    "n_unknown_gaps": 683,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 21:55:00+00:00",
+        "gap_end": "2023-01-03 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:55:00+00:00",
+        "gap_end": "2023-01-04 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:55:00+00:00",
+        "gap_end": "2023-01-05 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:55:00+00:00",
+        "gap_end": "2023-01-08 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-09 21:55:00+00:00",
+        "gap_end": "2023-01-09 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 21:55:00+00:00",
+        "gap_end": "2023-01-10 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:55:00+00:00",
+        "gap_end": "2023-01-11 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:55:00+00:00",
+        "gap_end": "2023-01-12 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:55:00+00:00",
+        "gap_end": "2023-01-15 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-16 17:55:00+00:00",
+        "gap_end": "2023-01-16 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-17 21:55:00+00:00",
+        "gap_end": "2023-01-17 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-18 21:35:00+00:00",
+        "gap_end": "2023-01-18 23:00:00+00:00",
+        "n_missing_slots": 16,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-19 21:55:00+00:00",
+        "gap_end": "2023-01-19 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 21:55:00+00:00",
+        "gap_end": "2023-01-22 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-23 21:55:00+00:00",
+        "gap_end": "2023-01-23 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-24 21:55:00+00:00",
+        "gap_end": "2023-01-24 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-25 21:55:00+00:00",
+        "gap_end": "2023-01-25 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-26 21:55:00+00:00",
+        "gap_end": "2023-01-26 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-27 21:55:00+00:00",
+        "gap_end": "2023-01-29 23:00:00+00:00",
+        "n_missing_slots": 588,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-30 21:55:00+00:00",
+        "gap_end": "2023-01-30 23:00:00+00:00",
+        "n_missing_slots": 12,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 55.025,
+      "max_observed": 94.883,
+      "median": 72.913,
+      "n_outside_expected": 0,
+      "expected_range": [
+        -50,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/brent_dukascopy_native_d1.csv",
+    "instrument": "brent",
+    "kind": "brent_dukascopy_d1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 4059,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2010-12-02 00:00:00+00:00",
+    "end": "2026-10-29 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 836,
+    "n_unknown_gaps": 92,
+    "gaps_preview": [
+      {
+        "gap_start": "2010-12-03 00:00:00+00:00",
+        "gap_end": "2010-12-06 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2010-12-10 00:00:00+00:00",
+        "gap_end": "2010-12-13 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2010-12-17 00:00:00+00:00",
+        "gap_end": "2010-12-20 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2010-12-23 00:00:00+00:00",
+        "gap_end": "2010-12-27 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2010-12-31 00:00:00+00:00",
+        "gap_end": "2011-01-03 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-01-07 00:00:00+00:00",
+        "gap_end": "2011-01-10 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-01-14 00:00:00+00:00",
+        "gap_end": "2011-01-17 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-01-21 00:00:00+00:00",
+        "gap_end": "2011-01-24 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-01-28 00:00:00+00:00",
+        "gap_end": "2011-01-31 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-02-04 00:00:00+00:00",
+        "gap_end": "2011-02-07 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-02-11 00:00:00+00:00",
+        "gap_end": "2011-02-14 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-02-18 00:00:00+00:00",
+        "gap_end": "2011-02-21 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-02-25 00:00:00+00:00",
+        "gap_end": "2011-02-28 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-03-04 00:00:00+00:00",
+        "gap_end": "2011-03-07 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-03-11 00:00:00+00:00",
+        "gap_end": "2011-03-14 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-03-18 00:00:00+00:00",
+        "gap_end": "2011-03-21 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-03-25 00:00:00+00:00",
+        "gap_end": "2011-03-28 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-04-01 00:00:00+00:00",
+        "gap_end": "2011-04-04 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-04-08 00:00:00+00:00",
+        "gap_end": "2011-04-11 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2011-04-15 00:00:00+00:00",
+        "gap_end": "2011-04-18 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 19.605,
+      "max_observed": 129.032,
+      "median": 74.855,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [
+      {
+        "position": 2342,
+        "date": "2020-03-09 00:00:00+00:00",
+        "value": 33.415,
+        "prev": 45.505,
+        "pct_change": -0.2656850895505989
+      },
+      {
+        "position": 2372,
+        "date": "2020-04-21 00:00:00+00:00",
+        "value": 19.605,
+        "prev": 25.915,
+        "pct_change": -0.24348832722361563
+      }
+    ],
+    "n_spikes": 2,
+    "ohlc_violations": 6,
+    "quality": "warn_ohlc_source"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/daily/brent_dukascopy_utc_daily_from_m5.csv",
+    "instrument": "brent",
+    "kind": "brent_utc_daily_from_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 774,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-03 00:00:00+00:00",
+    "end": "2025-12-31 00:00:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 159,
+    "n_unknown_gaps": 8,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-06 00:00:00+00:00",
+        "gap_end": "2023-01-09 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-13 00:00:00+00:00",
+        "gap_end": "2023-01-16 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-20 00:00:00+00:00",
+        "gap_end": "2023-01-23 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-27 00:00:00+00:00",
+        "gap_end": "2023-01-30 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-02-03 00:00:00+00:00",
+        "gap_end": "2023-02-06 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-02-10 00:00:00+00:00",
+        "gap_end": "2023-02-13 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-02-17 00:00:00+00:00",
+        "gap_end": "2023-02-20 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-02-24 00:00:00+00:00",
+        "gap_end": "2023-02-27 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-03-03 00:00:00+00:00",
+        "gap_end": "2023-03-06 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-03-10 00:00:00+00:00",
+        "gap_end": "2023-03-13 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-03-17 00:00:00+00:00",
+        "gap_end": "2023-03-20 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-03-24 00:00:00+00:00",
+        "gap_end": "2023-03-27 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-03-31 00:00:00+00:00",
+        "gap_end": "2023-04-03 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-04-06 00:00:00+00:00",
+        "gap_end": "2023-04-10 00:00:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-04-14 00:00:00+00:00",
+        "gap_end": "2023-04-17 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-04-21 00:00:00+00:00",
+        "gap_end": "2023-04-24 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-04-28 00:00:00+00:00",
+        "gap_end": "2023-05-01 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-05-05 00:00:00+00:00",
+        "gap_end": "2023-05-08 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-05-12 00:00:00+00:00",
+        "gap_end": "2023-05-15 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-05-19 00:00:00+00:00",
+        "gap_end": "2023-05-22 00:00:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "session_break_candidate"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 58.838,
+      "max_observed": 94.605,
+      "median": 77.024,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/intraday_5m/brent/dukascopy/brent_m5_bid_all.csv",
+    "instrument": "brent",
+    "kind": "brent_m5",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 193864,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-03 01:00:00+00:00",
+    "end": "2025-12-31 19:25:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 827,
+    "n_unknown_gaps": 827,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 21:55:00+00:00",
+        "gap_end": "2023-01-04 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:55:00+00:00",
+        "gap_end": "2023-01-05 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:55:00+00:00",
+        "gap_end": "2023-01-06 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:55:00+00:00",
+        "gap_end": "2023-01-09 01:00:00+00:00",
+        "n_missing_slots": 612,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-09 21:55:00+00:00",
+        "gap_end": "2023-01-10 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 21:55:00+00:00",
+        "gap_end": "2023-01-11 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:55:00+00:00",
+        "gap_end": "2023-01-12 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:55:00+00:00",
+        "gap_end": "2023-01-13 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:55:00+00:00",
+        "gap_end": "2023-01-16 01:00:00+00:00",
+        "n_missing_slots": 612,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-16 21:10:00+00:00",
+        "gap_end": "2023-01-16 21:25:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-16 21:30:00+00:00",
+        "gap_end": "2023-01-16 21:40:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-16 21:55:00+00:00",
+        "gap_end": "2023-01-17 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-17 21:55:00+00:00",
+        "gap_end": "2023-01-18 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-18 21:55:00+00:00",
+        "gap_end": "2023-01-19 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-19 21:55:00+00:00",
+        "gap_end": "2023-01-20 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 21:55:00+00:00",
+        "gap_end": "2023-01-23 01:00:00+00:00",
+        "n_missing_slots": 612,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-23 21:55:00+00:00",
+        "gap_end": "2023-01-24 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-24 21:55:00+00:00",
+        "gap_end": "2023-01-25 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-25 21:55:00+00:00",
+        "gap_end": "2023-01-26 01:00:00+00:00",
+        "n_missing_slots": 36,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-26 21:35:00+00:00",
+        "gap_end": "2023-01-27 01:00:00+00:00",
+        "n_missing_slots": 40,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 58.555,
+      "max_observed": 95.833,
+      "median": 77.028,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  }
+]

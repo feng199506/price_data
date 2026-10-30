@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "url": "https://www.indexmundi.com/commodities/?commodity=copper&months=360",
+  "path": "/root/workspace/commodity_history/data/raw/indexmundi/copper_indexmundi.html",
+  "attempts": [
+    {
+      "url": "https://www.indexmundi.com/commodities/?commodity=copper&months=360",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 125154,
+      "sniff": "html",
+      "final_url": "https://www.indexmundi.com/commodities/?commodity=copper&months=360",
+      "saved_path": "/root/workspace/commodity_history/data/raw/indexmundi/copper_indexmundi.html",
+      "sha256": "3c6438f56aa1c1f8d7a83792adbce13bc1e0f6a395303c5f8e83aaf6920c4e21",
+      "n_extracted": 355,
+      "extract_methods": [
+        "fusioncharts_xml",
+        "html_table",
+        "html_table"
+      ]
+    }
+  ],
+  "fetched_at": "2026-10-30T11:39:29Z",
+  "n_extracted": 355
+}

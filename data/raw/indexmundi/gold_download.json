@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "url": "https://www.indexmundi.com/commodities/?commodity=gold&months=360",
+  "path": "/root/workspace/commodity_history/data/raw/indexmundi/gold_indexmundi.html",
+  "attempts": [
+    {
+      "url": "https://www.indexmundi.com/commodities/?commodity=gold&months=360",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 119961,
+      "sniff": "html",
+      "final_url": "https://www.indexmundi.com/commodities/?commodity=gold&months=360",
+      "saved_path": "/root/workspace/commodity_history/data/raw/indexmundi/gold_indexmundi.html",
+      "sha256": "89a6029c8d39fa6b7bdbd0b3044698c4059640a2305b9415a54ac78a28009e0e",
+      "n_extracted": 355,
+      "extract_methods": [
+        "fusioncharts_xml",
+        "html_table",
+        "html_table"
+      ]
+    }
+  ],
+  "fetched_at": "2026-10-30T11:39:28Z",
+  "n_extracted": 355
+}

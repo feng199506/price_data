@@ -1,0 +1,55 @@
+[
+  {
+    "dataset": "brent_eia",
+    "date": "1987-05-20",
+    "source_page": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
+    "expected": 18.63,
+    "downloaded": 18.63,
+    "match": true
+  },
+  {
+    "dataset": "brent_eia",
+    "date": "1987-05-21",
+    "source_page": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
+    "expected": 18.45,
+    "downloaded": 18.45,
+    "match": true
+  },
+  {
+    "dataset": "brent_eia",
+    "date": "1987-05-22",
+    "source_page": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
+    "expected": 18.55,
+    "downloaded": 18.55,
+    "match": true
+  },
+  {
+    "dataset": "brent_eia",
+    "date": "1987-05-26",
+    "source_page": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
+    "expected": 18.63,
+    "downloaded": 18.63,
+    "match": true
+  },
+  {
+    "dataset": "wti_eia",
+    "date": "2020-04-20",
+    "note": "Cushing WTI printed negative on the April 2020 futures expiry; kept as source value.",
+    "downloaded": -36.98,
+    "negative_kept": true
+  },
+  {
+    "dataset": "gold_indexmundi_vs_worldbank",
+    "n_overlap": 340,
+    "max_abs_diff": 0.0049999999999954525,
+    "median_abs_diff": 0.0,
+    "note": "Magnitude/level check only. IndexMundi cites World Bank; not required to match tick-for-tick after rounding."
+  },
+  {
+    "dataset": "gold_dukascopy_m5_sample",
+    "timestamp_utc": "2024-03-04T00:00:00.000Z",
+    "open": 2083.445,
+    "note": "2024-03-04 gold ~2080 USD/oz is the expected order of magnitude for Dukascopy spot gold, not LBMA fixing.",
+    "magnitude_ok": true
+  }
+]

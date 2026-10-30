@@ -1,0 +1,168 @@
+project:
+  name: commodity_history
+  timezone_output: UTC
+  candle_label: left_open  # [start, start+freq)
+  concurrency: 2
+  retries: 5
+  retry_pause_ms: 1000
+  batch_size: 10
+  batch_pause_ms: 1000
+
+# 高频默认：执行年 2026 -> [2023-01-01, 2026-01-01)
+# 所有接口的结束日期规则见 date_end_rules
+intraday:
+  start: "2023-01-01"
+  end: "2026-01-01"          # exclusive
+  timeframe: m5
+  price_side: bid
+  sample_start: "2024-03-04"  # Monday
+  sample_end: "2024-03-09"    # exclusive Saturday; weekday window avoids empty weekend artifacts
+
+daily:
+  end: "2026-10-30"           # exclusive complete-day cutoff
+
+date_end_rules:
+  dukascopy_node: >
+    Official filter is startDateMs <= timestamp < endDateMs.
+    CLI --date-to / dates.to is exclusive. A call -from 2023-01-01 -to 2023-02-01
+    returns bars with open time in [2023-01-01T00:00:00Z, 2023-02-01T00:00:00Z).
+  eia_xls: >
+    The XLS is a full published history snapshot, not a ranged query.
+    The last data row is the last published trading day and is inclusive.
+  indexmundi: >
+    Monthly labels are calendar months. Listed months are inclusive.
+    This is monthly averages, never to be resampled into daily bars.
+  fred: >
+    FRED CSV includes the DATE column on each observation day.
+    The last dated row is inclusive. Missing values appear as a dot.
+
+dependencies:
+  python_requires: ">=3.10"
+  dukascopy_node: "1.51.1"
+  dukascopy_node_docs:
+    cli: "https://www.dukascopy-node.app/config/cli"
+    node: "https://www.dukascopy-node.app/config/node"
+    repo: "https://github.com/Leo4815162342/dukascopy-node"
+    historical_export: "https://www.dukascopy.com/swiss/english/marketwatch/historical/"
+    range_of_markets: "https://www.dukascopy.com/swiss/english/cfd/range-of-markets/"
+
+instruments:
+  gold:
+    name_zh: 黄金
+    dukascopy:
+      id: xauusd
+      provider_symbol: XAU/USD
+      product_name: Spot gold
+      instrument_type: dukascopy_spot_quote
+      unit: USD per troy ounce
+      currency: USD
+      earliest_d1: "1999-06-03"
+      earliest_m5: "2003-05-05"
+      proxy_note: "Dukascopy Bank spot gold quote, not LBMA official fixing."
+    indexmundi:
+      slug: gold
+      unit: USD per troy ounce
+      description: "Gold (UK), 99.5% fine, London afternoon fixing, average of daily rates"
+      source_name: World Bank via IndexMundi
+    fred:
+      series_id: GOLDPMGBD228NLBM
+      unit: USD per troy ounce
+      description: "Gold Fixing Price 3:00 P.M. (London time) in London Bullion Market, based in U.S. Dollars"
+  silver:
+    name_zh: 白银
+    dukascopy:
+      id: xagusd
+      provider_symbol: XAG/USD
+      product_name: Spot silver
+      instrument_type: dukascopy_spot_quote
+      unit: USD per troy ounce
+      currency: USD
+      earliest_d1: "1999-06-03"
+      earliest_m5: "2003-05-05"
+      proxy_note: "Dukascopy Bank spot silver quote, not LBMA official fixing."
+    indexmundi:
+      slug: silver
+      unit: USD per troy ounce
+      description: "Silver (Handy & Harman / London afternoon fixing); World Bank via IndexMundi"
+      source_name: World Bank via IndexMundi
+    fred:
+      series_id: SLVPRUSD
+      unit: USD per troy ounce
+      description: "Silver Prices (USD per Troy Ounce) on FRED, if the series is still public"
+  copper:
+    name_zh: 铜
+    dukascopy:
+      id: coppercmdusd
+      provider_symbol: COPPER.CMD/USD
+      product_name: High Grade Copper
+      instrument_type: cfd_proxy
+      unit: USD per pound
+      currency: USD
+      earliest_d1: "2012-03-02"
+      earliest_m5: "2012-03-02"
+      contract_size: "1 CFD = 100 lbs"
+      proxy_note: "Dukascopy High Grade Copper CFD, COMEX-style USD/lb continuous broker quote. Not LME grade-A cathode spot and not exchange raw futures."
+      rollover: provider_continuous_cfd_roll_undisclosed
+    indexmundi:
+      slug: copper
+      unit: USD per metric ton
+      description: "Copper (LME), grade A cathode, settlement price, monthly average"
+      source_name: World Bank via IndexMundi
+  wti:
+    name_zh: WTI原油
+    dukascopy:
+      id: lightcmdusd
+      provider_symbol: LIGHT.CMD/USD
+      product_name: US Crude Oil
+      instrument_type: cfd_proxy
+      unit: USD per barrel
+      currency: USD
+      earliest_d1: "1983-04-20"
+      earliest_m5: "2011-09-23"
+      contract_size: "1 CFD = 100 barrels"
+      proxy_note: "Dukascopy US Light Crude Oil CFD continuous broker quote. Not EIA Cushing WTI spot and not NYMEX raw futures."
+      rollover: provider_continuous_cfd_roll_undisclosed
+    eia:
+      series: RWTC
+      page: "https://www.eia.gov/dnav/pet/hist/RWTCd.htm"
+      xls_candidates:
+        - "https://www.eia.gov/dnav/pet/hist_xls/RWTCd.xls"
+        - "https://www.eia.gov/dnav/pet/hist_xls/RWTCd.xlsx"
+        - "https://www.eia.gov/dnav/pet/xls/PET_PRI_SPT_S1_D.xls"
+      unit: USD per barrel
+      instrument_type: official_spot
+      description: "Cushing, OK WTI Spot Price FOB"
+  brent:
+    name_zh: Brent原油
+    dukascopy:
+      id: brentcmdusd
+      provider_symbol: BRENT.CMD/USD
+      product_name: UK Brent Oil
+      instrument_type: cfd_proxy
+      unit: USD per barrel
+      currency: USD
+      earliest_d1: "2010-12-02"
+      documented_earliest_d1: "2006-11-17"
+      documented_earliest_d1_note: "dukascopy-node 1.51.1 crashes with Cannot read properties of undefined (reading '0') when -from 2006-11-17 or 2007-01-02. First working d1 fetch is 2010-12-02."
+      earliest_m5: "2010-12-02"
+      contract_size: "1 CFD = 100 barrels"
+      proxy_note: "Dukascopy UK Brent Oil CFD continuous broker quote. Not EIA Europe Brent spot and not ICE raw futures."
+      rollover: provider_continuous_cfd_roll_undisclosed
+    eia:
+      series: RBRTE
+      page: "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm"
+      xls_candidates:
+        - "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls"
+        - "https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xlsx"
+        - "https://www.eia.gov/dnav/pet/xls/PET_PRI_SPT_S1_D.xls"
+      unit: USD per barrel
+      instrument_type: official_spot
+      description: "Europe Brent Spot Price FOB"
+
+magnitude_checks:
+  gold: {min: 200, max: 20000, unit: "USD/troy oz"}
+  silver: {min: 1, max: 500, unit: "USD/troy oz"}
+  copper_cfd: {min: 0.5, max: 20, unit: "USD/lb"}
+  copper_lme_monthly: {min: 500, max: 30000, unit: "USD/metric ton"}
+  wti: {min: -50, max: 200, unit: "USD/barrel"}
+  brent: {min: 1, max: 200, unit: "USD/barrel"}

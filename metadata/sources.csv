@@ -1,0 +1,6 @@
+source,page,role,terms,xlsx,page_wti,page_brent,xls_wti,xls_brent,historical,range_of_markets,tool,tool_docs
+IndexMundi,https://www.indexmundi.com/commodities/,monthly_reference,public website FusionCharts/HTML; Excel export requires login. Originating source World Bank,,,,,,,,,
+World Bank Commodity Markets Outlook,https://www.worldbank.org/en/research/commodity-markets,monthly_reference originating workbook,https://www.worldbank.org/en/about/legal/terms-and-conditions,https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx,,,,,,,,
+EIA,,official daily crude spot,https://www.eia.gov/about/copyrights_reuse.php,,https://www.eia.gov/dnav/pet/hist/RWTCd.htm,https://www.eia.gov/dnav/pet/hist/RBRTEd.htm,https://www.eia.gov/dnav/pet/hist_xls/RWTCd.xls,https://www.eia.gov/dnav/pet/hist_xls/RBRTEd.xls,,,,
+Dukascopy Bank SA,,broker spot quotes and commodity CFDs,https://www.dukascopy.com/swiss/english/marketwatch/historical/,,,,,,https://www.dukascopy.com/swiss/english/marketwatch/historical/,https://www.dukascopy.com/swiss/english/cfd/range-of-markets/,dukascopy-node 1.51.1,https://www.dukascopy-node.app/config/cli
+FRED / St. Louis Fed,https://fred.stlouisfed.org/,optional independent official metal daily benchmarks,https://fred.stlouisfed.org/legal/,,,,,,,,,

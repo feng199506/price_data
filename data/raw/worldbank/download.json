@@ -1,0 +1,12 @@
+{
+  "url": "https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx",
+  "status_code": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "bytes": 765246,
+  "sniff": "xlsx_zip",
+  "final_url": "https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx",
+  "ok": true,
+  "path": "/root/workspace/commodity_history/data/raw/worldbank/CMO-Historical-Data-Monthly.xlsx",
+  "sha256": "bd89b83eeceadaecb803018c104f76b316d2df3fae28ef7afde48021100c7e11",
+  "fetched_at": "2026-10-30T11:39:31Z"
+}

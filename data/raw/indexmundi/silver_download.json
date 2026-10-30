@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "url": "https://www.indexmundi.com/commodities/?commodity=silver&months=360",
+  "path": "/root/workspace/commodity_history/data/raw/indexmundi/silver_indexmundi.html",
+  "attempts": [
+    {
+      "url": "https://www.indexmundi.com/commodities/?commodity=silver&months=360",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 118544,
+      "sniff": "html",
+      "final_url": "https://www.indexmundi.com/commodities/?commodity=silver&months=360",
+      "saved_path": "/root/workspace/commodity_history/data/raw/indexmundi/silver_indexmundi.html",
+      "sha256": "83d71f8a2bba0d4f00a78ae929fbaff0c905faca9f34f953f0f45842b79f97ca",
+      "n_extracted": 355,
+      "extract_methods": [
+        "fusioncharts_xml",
+        "html_table",
+        "html_table"
+      ]
+    }
+  ],
+  "fetched_at": "2026-10-30T11:39:29Z",
+  "n_extracted": 355
+}

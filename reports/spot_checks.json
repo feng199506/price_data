@@ -1,0 +1,1084 @@
+[
+  {
+    "instrument": "wti",
+    "kind": "wti_eia_daily",
+    "path": "/root/workspace/commodity_history/data/daily/wti_eia_spot_daily.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "date": "1986-01-02",
+        "price": 25.56,
+        "instrument": "wti"
+      },
+      {
+        "date": "1995-12-18",
+        "price": 19.71,
+        "instrument": "wti"
+      },
+      {
+        "date": "2007-08-13",
+        "price": 71.6,
+        "instrument": "wti"
+      },
+      {
+        "date": "2017-04-18",
+        "price": 52.46,
+        "instrument": "wti"
+      },
+      {
+        "date": "2026-10-27",
+        "price": 103.37,
+        "instrument": "wti"
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "brent",
+    "kind": "brent_eia_daily",
+    "path": "/root/workspace/commodity_history/data/daily/brent_eia_spot_daily.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "date": "1987-05-20",
+        "price": 18.63,
+        "instrument": "brent"
+      },
+      {
+        "date": "1998-02-03",
+        "price": 14.87,
+        "instrument": "brent"
+      },
+      {
+        "date": "2008-10-17",
+        "price": 66.05,
+        "instrument": "brent"
+      },
+      {
+        "date": "2017-10-26",
+        "price": 58.75,
+        "instrument": "brent"
+      },
+      {
+        "date": "2026-10-27",
+        "price": 123.1,
+        "instrument": "brent"
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "gold",
+    "kind": "gold_indexmundi_monthly",
+    "path": "/root/workspace/commodity_history/data/monthly_reference/gold_indexmundi_monthly.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "date": "1996-09-01",
+        "price": 383.14,
+        "instrument": "gold"
+      },
+      {
+        "date": "2004-01-01",
+        "price": 413.79,
+        "instrument": "gold"
+      },
+      {
+        "date": "2011-06-01",
+        "price": 1529.36,
+        "instrument": "gold"
+      },
+      {
+        "date": "2018-11-01",
+        "price": 1220.65,
+        "instrument": "gold"
+      },
+      {
+        "date": "2026-03-01",
+        "price": 4855.54,
+        "instrument": "gold"
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "gold",
+    "kind": "gold_worldbank_monthly",
+    "path": "/root/workspace/commodity_history/data/monthly_reference/gold_worldbank_pinksheet_monthly.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "date": "1960-01-01",
+        "price": 35.27,
+        "instrument": "gold"
+      },
+      {
+        "date": "1976-04-01",
+        "price": 127.94,
+        "instrument": "gold"
+      },
+      {
+        "date": "1992-07-01",
+        "price": 352.72,
+        "instrument": "gold"
+      },
+      {
+        "date": "2008-10-01",
+        "price": 806.62,
+        "instrument": "gold"
+      },
+      {
+        "date": "2024-12-01",
+        "price": 2648.01,
+        "instrument": "gold"
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "silver",
+    "kind": "silver_indexmundi_monthly",
+    "path": "/root/workspace/commodity_history/data/monthly_reference/silver_indexmundi_monthly.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "date": "1996-09-01",
+        "price": 5.04,
+        "instrument": "silver"
+      },
+      {
+        "date": "2004-01-01",
+        "price": 6.3,
+        "instrument": "silver"
+      },
+      {
+        "date": "2011-06-01",
+        "price": 35.8,
+        "instrument": "silver"
+      },
+      {
+        "date": "2018-11-01",
+        "price": 14.35,
+        "instrument": "silver"
+      },
+      {
+        "date": "2026-03-01",
+        "price": 77.88,
+        "instrument": "silver"
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "silver",
+    "kind": "silver_worldbank_monthly",
+    "path": "/root/workspace/commodity_history/data/monthly_reference/silver_worldbank_pinksheet_monthly.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "date": "1960-01-01",
+        "price": 0.9137,
+        "instrument": "silver"
+      },
+      {
+        "date": "1976-04-01",
+        "price": 4.35552,
+        "instrument": "silver"
+      },
+      {
+        "date": "1992-07-01",
+        "price": 3.9675,
+        "instrument": "silver"
+      },
+      {
+        "date": "2008-10-01",
+        "price": 10.4413,
+        "instrument": "silver"
+      },
+      {
+        "date": "2024-12-01",
+        "price": 30.764,
+        "instrument": "silver"
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "copper",
+    "kind": "copper_indexmundi_monthly",
+    "path": "/root/workspace/commodity_history/data/monthly_reference/copper_indexmundi_monthly.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "date": "1996-09-01",
+        "price": 1941.45,
+        "instrument": "copper"
+      },
+      {
+        "date": "2004-01-01",
+        "price": 2423.57,
+        "instrument": "copper"
+      },
+      {
+        "date": "2011-06-01",
+        "price": 9066.85,
+        "instrument": "copper"
+      },
+      {
+        "date": "2018-11-01",
+        "price": 6195.92,
+        "instrument": "copper"
+      },
+      {
+        "date": "2026-03-01",
+        "price": 12528.71,
+        "instrument": "copper"
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "copper",
+    "kind": "copper_worldbank_monthly",
+    "path": "/root/workspace/commodity_history/data/monthly_reference/copper_worldbank_pinksheet_monthly.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "date": "1960-01-01",
+        "price": 715.4,
+        "instrument": "copper"
+      },
+      {
+        "date": "1976-04-01",
+        "price": 1510.0,
+        "instrument": "copper"
+      },
+      {
+        "date": "1992-07-01",
+        "price": 2520.32,
+        "instrument": "copper"
+      },
+      {
+        "date": "2008-10-01",
+        "price": 4925.696,
+        "instrument": "copper"
+      },
+      {
+        "date": "2024-12-01",
+        "price": 8916.32,
+        "instrument": "copper"
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "gold",
+    "kind": "gold_dukascopy_d1",
+    "path": "/root/workspace/commodity_history/data/daily/gold_dukascopy_native_d1.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "1999-06-03 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 265.05,
+        "high": 266.7,
+        "low": 263.75,
+        "close": 265.7,
+        "volume": 1978867200
+      },
+      {
+        "timestamp_utc": "2006-10-27 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 594.788,
+        "high": 599.794,
+        "low": 591.0,
+        "close": 598.831,
+        "volume": 26299562
+      },
+      {
+        "timestamp_utc": "2013-06-19 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 1368.894,
+        "high": 1376.553,
+        "low": 1342.727,
+        "close": 1346.278,
+        "volume": 54552840
+      },
+      {
+        "timestamp_utc": "2020-02-24 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 1665.475,
+        "high": 1689.255,
+        "low": 1650.838,
+        "close": 1653.825,
+        "volume": 116475720
+      },
+      {
+        "timestamp_utc": "2026-10-29 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 4054.425,
+        "high": 4068.604,
+        "low": 4005.145,
+        "close": 4007.664,
+        "volume": 50605995
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "gold",
+    "kind": "gold_utc_daily_from_m5",
+    "path": "/root/workspace/commodity_history/data/daily/gold_dukascopy_utc_daily_from_m5.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-02 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 1826.837,
+        "high": 1829.958,
+        "low": 1823.287,
+        "close": 1829.295,
+        "volume": 1650560
+      },
+      {
+        "timestamp_utc": "2023-10-02 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 1848.295,
+        "high": 1848.835,
+        "low": 1820.405,
+        "close": 1824.845,
+        "volume": 17403885
+      },
+      {
+        "timestamp_utc": "2024-07-04 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 2358.725,
+        "high": 2362.385,
+        "low": 2350.364,
+        "close": 2356.655,
+        "volume": 25971430
+      },
+      {
+        "timestamp_utc": "2025-04-02 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 3114.998,
+        "high": 3167.548,
+        "low": 3104.175,
+        "close": 3162.475,
+        "volume": 45516857
+      },
+      {
+        "timestamp_utc": "2025-12-31 00:00:00+00:00",
+        "instrument": "gold",
+        "open": 4338.655,
+        "high": 4372.905,
+        "low": 4273.805,
+        "close": 4318.679,
+        "volume": 65199280
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "gold",
+    "kind": "gold_m5",
+    "path": "/root/workspace/commodity_history/data/intraday_5m/gold/dukascopy/gold_m5_bid_all.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-02 23:00:00+00:00",
+        "instrument": "gold",
+        "open": 1826.837,
+        "high": 1827.357,
+        "low": 1826.137,
+        "close": 1826.737,
+        "volume": 36310
+      },
+      {
+        "timestamp_utc": "2023-10-02 07:30:00+00:00",
+        "instrument": "gold",
+        "open": 1842.845,
+        "high": 1843.085,
+        "low": 1842.325,
+        "close": 1842.735,
+        "volume": 71760
+      },
+      {
+        "timestamp_utc": "2024-07-02 18:25:00+00:00",
+        "instrument": "gold",
+        "open": 2326.615,
+        "high": 2327.395,
+        "low": 2326.368,
+        "close": 2326.515,
+        "volume": 239710
+      },
+      {
+        "timestamp_utc": "2025-04-02 07:55:00+00:00",
+        "instrument": "gold",
+        "open": 3123.935,
+        "high": 3125.885,
+        "low": 3123.445,
+        "close": 3125.075,
+        "volume": 153790
+      },
+      {
+        "timestamp_utc": "2025-12-31 21:55:00+00:00",
+        "instrument": "gold",
+        "open": 4317.095,
+        "high": 4318.719,
+        "low": 4316.525,
+        "close": 4318.679,
+        "volume": 127090
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "silver",
+    "kind": "silver_dukascopy_d1",
+    "path": "/root/workspace/commodity_history/data/daily/silver_dukascopy_native_d1.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "1999-06-03 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 4.96,
+        "high": 4.99,
+        "low": 4.94,
+        "close": 4.93,
+        "volume": 156750000
+      },
+      {
+        "timestamp_utc": "2006-11-06 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 12.503,
+        "high": 12.782,
+        "low": 12.281,
+        "close": 12.557,
+        "volume": 546200000
+      },
+      {
+        "timestamp_utc": "2013-06-25 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 19.695,
+        "high": 19.85,
+        "low": 19.463,
+        "close": 19.554,
+        "volume": 971326000
+      },
+      {
+        "timestamp_utc": "2020-02-27 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 17.906,
+        "high": 18.131,
+        "low": 17.614,
+        "close": 17.789,
+        "volume": 9548402800
+      },
+      {
+        "timestamp_utc": "2026-10-29 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 53.9,
+        "high": 54.371,
+        "low": 51.79,
+        "close": 51.918,
+        "volume": 2365877400
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "silver",
+    "kind": "silver_utc_daily_from_m5",
+    "path": "/root/workspace/commodity_history/data/daily/silver_dukascopy_utc_daily_from_m5.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-02 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 24.036,
+        "high": 24.13,
+        "low": 23.938,
+        "close": 24.09,
+        "volume": 18666300
+      },
+      {
+        "timestamp_utc": "2023-10-02 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 22.102,
+        "high": 22.106,
+        "low": 20.652,
+        "close": 20.882,
+        "volume": 1337807410
+      },
+      {
+        "timestamp_utc": "2024-07-04 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 30.519,
+        "high": 30.577,
+        "low": 30.12,
+        "close": 30.36,
+        "volume": 897057650
+      },
+      {
+        "timestamp_utc": "2025-04-02 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 33.656,
+        "high": 34.13,
+        "low": 32.936,
+        "close": 33.776,
+        "volume": 2214634230
+      },
+      {
+        "timestamp_utc": "2025-12-31 00:00:00+00:00",
+        "instrument": "silver",
+        "open": 75.2,
+        "high": 75.793,
+        "low": 70.049,
+        "close": 71.537,
+        "volume": 5368632000
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "silver",
+    "kind": "silver_m5",
+    "path": "/root/workspace/commodity_history/data/intraday_5m/silver/dukascopy/silver_m5_bid_all.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-02 23:00:00+00:00",
+        "instrument": "silver",
+        "open": 24.036,
+        "high": 24.059,
+        "low": 24.017,
+        "close": 24.059,
+        "volume": 348000
+      },
+      {
+        "timestamp_utc": "2023-10-02 06:35:00+00:00",
+        "instrument": "silver",
+        "open": 21.78,
+        "high": 21.879,
+        "low": 21.78,
+        "close": 21.879,
+        "volume": 5556400
+      },
+      {
+        "timestamp_utc": "2024-07-02 15:35:00+00:00",
+        "instrument": "silver",
+        "open": 29.516,
+        "high": 29.571,
+        "low": 29.492,
+        "close": 29.497,
+        "volume": 15702150
+      },
+      {
+        "timestamp_utc": "2025-04-02 03:40:00+00:00",
+        "instrument": "silver",
+        "open": 33.792,
+        "high": 33.798,
+        "low": 33.781,
+        "close": 33.783,
+        "volume": 1890000
+      },
+      {
+        "timestamp_utc": "2025-12-31 21:55:00+00:00",
+        "instrument": "silver",
+        "open": 71.552,
+        "high": 71.581,
+        "low": 71.459,
+        "close": 71.537,
+        "volume": 12816000
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "copper",
+    "kind": "copper_dukascopy_d1",
+    "path": "/root/workspace/commodity_history/data/daily/copper_dukascopy_native_d1.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2012-03-04 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 3.9007,
+        "high": 3.908,
+        "low": 3.9007,
+        "close": 3.9038,
+        "volume": 4551
+      },
+      {
+        "timestamp_utc": "2015-11-03 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 2.316,
+        "high": 2.341,
+        "low": 2.2988,
+        "close": 2.3299,
+        "volume": 1520577
+      },
+      {
+        "timestamp_utc": "2019-07-09 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 2.6531,
+        "high": 2.6546,
+        "low": 2.61,
+        "close": 2.6257,
+        "volume": 3468628
+      },
+      {
+        "timestamp_utc": "2023-03-06 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 4.0436,
+        "high": 4.0908,
+        "low": 4.0059,
+        "close": 4.074,
+        "volume": 29228500
+      },
+      {
+        "timestamp_utc": "2026-10-29 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 6.6833,
+        "high": 6.6937,
+        "low": 6.5465,
+        "close": 6.5709,
+        "volume": 37338210
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "copper",
+    "kind": "copper_utc_daily_from_m5",
+    "path": "/root/workspace/commodity_history/data/daily/copper_dukascopy_utc_daily_from_m5.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-02 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 3.8339,
+        "high": 3.8462,
+        "low": 3.8281,
+        "close": 3.8382,
+        "volume": 417560
+      },
+      {
+        "timestamp_utc": "2023-10-02 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 3.7325,
+        "high": 3.759,
+        "low": 3.6255,
+        "close": 3.6375,
+        "volume": 39533680
+      },
+      {
+        "timestamp_utc": "2024-07-04 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 4.5296,
+        "high": 4.5831,
+        "low": 4.5109,
+        "close": 4.559,
+        "volume": 14276400
+      },
+      {
+        "timestamp_utc": "2025-04-02 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 5.0385,
+        "high": 5.1414,
+        "low": 4.8312,
+        "close": 4.9147,
+        "volume": 17662200
+      },
+      {
+        "timestamp_utc": "2025-12-31 00:00:00+00:00",
+        "instrument": "copper",
+        "open": 5.7224,
+        "high": 5.7761,
+        "low": 5.6354,
+        "close": 5.692,
+        "volume": 22475580
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "copper",
+    "kind": "copper_m5",
+    "path": "/root/workspace/commodity_history/data/intraday_5m/copper/dukascopy/copper_m5_bid_all.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-02 23:00:00+00:00",
+        "instrument": "copper",
+        "open": 3.8339,
+        "high": 3.8407,
+        "low": 3.8313,
+        "close": 3.8382,
+        "volume": 82080
+      },
+      {
+        "timestamp_utc": "2023-10-02 00:40:00+00:00",
+        "instrument": "copper",
+        "open": 3.733,
+        "high": 3.7337,
+        "low": 3.7294,
+        "close": 3.7308,
+        "volume": 55620
+      },
+      {
+        "timestamp_utc": "2024-07-02 17:00:00+00:00",
+        "instrument": "copper",
+        "open": 4.4171,
+        "high": 4.4195,
+        "low": 4.4153,
+        "close": 4.4174,
+        "volume": 144000
+      },
+      {
+        "timestamp_utc": "2025-04-01 20:50:00+00:00",
+        "instrument": "copper",
+        "open": 5.0337,
+        "high": 5.0337,
+        "low": 5.0293,
+        "close": 5.0301,
+        "volume": 34920
+      },
+      {
+        "timestamp_utc": "2025-12-31 21:55:00+00:00",
+        "instrument": "copper",
+        "open": 5.6931,
+        "high": 5.6937,
+        "low": 5.692,
+        "close": 5.692,
+        "volume": 16200
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "wti",
+    "kind": "wti_dukascopy_d1",
+    "path": "/root/workspace/commodity_history/data/daily/wti_dukascopy_native_d1.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "1992-12-31 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 19.61,
+        "high": 19.65,
+        "low": 19.48,
+        "close": 19.5,
+        "volume": 12233000000
+      },
+      {
+        "timestamp_utc": "2002-04-22 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 26.4,
+        "high": 26.94,
+        "low": 25.81,
+        "close": 26.35,
+        "volume": 78367000000
+      },
+      {
+        "timestamp_utc": "2011-06-20 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 92.8,
+        "high": 93.49,
+        "low": 91.14,
+        "close": 93.32,
+        "volume": 245013000000
+      },
+      {
+        "timestamp_utc": "2019-05-20 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 63.388,
+        "high": 63.786,
+        "low": 62.428,
+        "close": 63.38,
+        "volume": 15532996
+      },
+      {
+        "timestamp_utc": "2026-10-29 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 101.845,
+        "high": 102.974,
+        "low": 99.795,
+        "close": 102.846,
+        "volume": 17225490
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "wti",
+    "kind": "wti_utc_daily_from_m5",
+    "path": "/root/workspace/commodity_history/data/daily/wti_dukascopy_utc_daily_from_m5.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-02 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 80.517,
+        "high": 80.592,
+        "low": 80.152,
+        "close": 80.437,
+        "volume": 833614
+      },
+      {
+        "timestamp_utc": "2023-10-02 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 91.078,
+        "high": 91.853,
+        "low": 88.363,
+        "close": 88.563,
+        "volume": 6956060
+      },
+      {
+        "timestamp_utc": "2024-07-04 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 83.603,
+        "high": 84.173,
+        "low": 83.003,
+        "close": 83.908,
+        "volume": 4865633
+      },
+      {
+        "timestamp_utc": "2025-04-02 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 71.235,
+        "high": 72.222,
+        "low": 69.245,
+        "close": 69.335,
+        "volume": 6239776
+      },
+      {
+        "timestamp_utc": "2025-12-31 00:00:00+00:00",
+        "instrument": "wti",
+        "open": 57.9,
+        "high": 58.535,
+        "low": 57.175,
+        "close": 57.383,
+        "volume": 10542165
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "wti",
+    "kind": "wti_m5",
+    "path": "/root/workspace/commodity_history/data/intraday_5m/wti/dukascopy/wti_m5_bid_all.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-02 23:00:00+00:00",
+        "instrument": "wti",
+        "open": 80.517,
+        "high": 80.592,
+        "low": 80.342,
+        "close": 80.387,
+        "volume": 141872
+      },
+      {
+        "timestamp_utc": "2023-10-02 04:05:00+00:00",
+        "instrument": "wti",
+        "open": 91.093,
+        "high": 91.093,
+        "low": 91.067,
+        "close": 91.083,
+        "volume": 6219
+      },
+      {
+        "timestamp_utc": "2024-07-02 12:10:00+00:00",
+        "instrument": "wti",
+        "open": 84.023,
+        "high": 84.043,
+        "low": 83.978,
+        "close": 84.033,
+        "volume": 31525
+      },
+      {
+        "timestamp_utc": "2025-04-01 23:40:00+00:00",
+        "instrument": "wti",
+        "open": 71.215,
+        "high": 71.215,
+        "low": 71.21,
+        "close": 71.21,
+        "volume": 720
+      },
+      {
+        "timestamp_utc": "2025-12-31 21:55:00+00:00",
+        "instrument": "wti",
+        "open": 57.398,
+        "high": 57.398,
+        "low": 57.378,
+        "close": 57.383,
+        "volume": 135000
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "brent",
+    "kind": "brent_dukascopy_d1",
+    "path": "/root/workspace/commodity_history/data/daily/brent_dukascopy_native_d1.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2010-12-02 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 88.734,
+        "high": 90.81,
+        "low": 88.39,
+        "close": 90.51,
+        "volume": 10605971
+      },
+      {
+        "timestamp_utc": "2015-01-20 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 48.825,
+        "high": 49.428,
+        "low": 47.78,
+        "close": 48.104,
+        "volume": 30204820
+      },
+      {
+        "timestamp_utc": "2018-12-19 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 56.576,
+        "high": 58.076,
+        "low": 56.015,
+        "close": 56.475,
+        "volume": 7648992
+      },
+      {
+        "timestamp_utc": "2022-11-23 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 88.494,
+        "high": 89.537,
+        "low": 84.097,
+        "close": 84.752,
+        "volume": 4166987
+      },
+      {
+        "timestamp_utc": "2026-10-29 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 110.454,
+        "high": 111.775,
+        "low": 109.005,
+        "close": 111.54,
+        "volume": 9749900
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "brent",
+    "kind": "brent_utc_daily_from_m5",
+    "path": "/root/workspace/commodity_history/data/daily/brent_dukascopy_utc_daily_from_m5.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-03 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 85.744,
+        "high": 86.972,
+        "low": 81.767,
+        "close": 82.322,
+        "volume": 4769425
+      },
+      {
+        "timestamp_utc": "2023-10-02 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 92.457,
+        "high": 93.313,
+        "low": 90.333,
+        "close": 90.402,
+        "volume": 4072632
+      },
+      {
+        "timestamp_utc": "2024-07-03 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 86.408,
+        "high": 87.363,
+        "low": 85.873,
+        "close": 87.027,
+        "volume": 5259495
+      },
+      {
+        "timestamp_utc": "2025-04-02 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 74.505,
+        "high": 75.422,
+        "low": 73.667,
+        "close": 73.767,
+        "volume": 4381832
+      },
+      {
+        "timestamp_utc": "2025-12-31 00:00:00+00:00",
+        "instrument": "brent",
+        "open": 61.297,
+        "high": 61.905,
+        "low": 60.802,
+        "close": 60.842,
+        "volume": 19523975
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  },
+  {
+    "instrument": "brent",
+    "kind": "brent_m5",
+    "path": "/root/workspace/commodity_history/data/intraday_5m/brent/dukascopy/brent_m5_bid_all.csv",
+    "n_checked": 5,
+    "rows": [
+      {
+        "timestamp_utc": "2023-01-03 01:00:00+00:00",
+        "instrument": "brent",
+        "open": 85.744,
+        "high": 85.892,
+        "low": 85.444,
+        "close": 85.667,
+        "volume": 55254
+      },
+      {
+        "timestamp_utc": "2023-10-02 03:05:00+00:00",
+        "instrument": "brent",
+        "open": 92.433,
+        "high": 92.433,
+        "low": 92.417,
+        "close": 92.433,
+        "volume": 1242
+      },
+      {
+        "timestamp_utc": "2024-07-02 13:20:00+00:00",
+        "instrument": "brent",
+        "open": 87.193,
+        "high": 87.268,
+        "low": 87.113,
+        "close": 87.223,
+        "volume": 64057
+      },
+      {
+        "timestamp_utc": "2025-04-02 03:00:00+00:00",
+        "instrument": "brent",
+        "open": 74.565,
+        "high": 74.57,
+        "low": 74.495,
+        "close": 74.5,
+        "volume": 2845
+      },
+      {
+        "timestamp_utc": "2025-12-31 19:25:00+00:00",
+        "instrument": "brent",
+        "open": 60.847,
+        "high": 60.875,
+        "low": 60.802,
+        "close": 60.842,
+        "volume": 215614
+      }
+    ],
+    "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
+  }
+]
