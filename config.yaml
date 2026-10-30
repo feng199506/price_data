@@ -14,6 +14,7 @@ intraday:
   start: "2023-01-01"
   end: "2026-10-31"          # exclusive; includes 2026-10-30 UTC bars
   timeframe: m5
+  also_download_m1: true
   price_side: bid
   sample_start: "2024-03-04"  # Monday
   sample_end: "2024-03-09"    # exclusive Saturday; weekday window avoids empty weekend artifacts

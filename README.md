@@ -28,6 +28,7 @@
 ```
 data/daily/                 日线（EIA 现货、Dukascopy 原生 d1、由 5 分钟聚合的 UTC 日线）
 data/intraday_5m/           5 分钟 bid OHLC，按品种/来源/年份分区（CSV + Parquet）
+data/intraday_1m/           1 分钟 bid OHLC，按品种/来源/年份分区（CSV + Parquet）；合并文件仅 Parquet
 data/monthly_reference/     IndexMundi 与 World Bank 月度
 data/raw/                   EIA XLS、World Bank Pink Sheet、IndexMundi HTML 原文
 reports/                    中文下载报告、质量检查、抽查
@@ -36,13 +37,15 @@ metadata/                   来源与文件清单
 
 高频当前请求区间：`[2023-01-01, 2026-10-31)`（原默认是三个完整日历年 `[2023-01-01, 2026-01-01)`，已延到今天）。  
 `dukascopy-node` 的结束日期为**开区间**；EIA XLS 最后交易日**含当日**。  
-5 分钟 K 线为 UTC 左闭左标 `[t, t+5min)`，`price_side=bid`。成交量为供应商报价量，不是交易所成交量。5 分钟实际覆盖到约 `2026-10-30 12:10 UTC`。
+K 线为 UTC 左闭左标：5 分钟 `[t, t+5min)`，1 分钟 `[t, t+1min)`。`price_side=bid`。成交量为供应商报价量，不是交易所成交量。  
+5 分钟覆盖到约 `2026-10-30 12:10 UTC`；1 分钟覆盖到约 `2026-10-30 12:24 UTC`。
 
 ## 完成状态摘要
 
 - EIA WTI / Brent 日线：completed
 - IndexMundi / World Bank 月度：completed
-- 五品种 Dukascopy 5 分钟（2023–2025 可交易时段）：completed
+- 五品种 Dukascopy 5 分钟（2023 至 2026-10-30）：completed
+- 五品种 Dukascopy 1 分钟（2023 至 2026-10-30）：completed
 - FRED 金银官方日线：blocked（系列 CSV 返回 HTTP 404）
 - WTI / Brent Dukascopy 原生 d1：partial（实际起点晚于文档最早日期，未用现货回填）
 

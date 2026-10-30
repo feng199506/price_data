@@ -1615,6 +1615,179 @@
     "quality": "warn"
   },
   {
+    "path": "/root/workspace/commodity_history/data/intraday_1m/gold/dukascopy/gold_m1_bid_all.parquet",
+    "instrument": "gold",
+    "kind": "gold_m1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 1358341,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 23:00:00+00:00",
+    "end": "2026-10-30 12:23:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 1290,
+    "n_unknown_gaps": 1097,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-02 23:02:00+00:00",
+        "gap_end": "2023-01-02 23:05:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 21:59:00+00:00",
+        "gap_end": "2023-01-03 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:59:00+00:00",
+        "gap_end": "2023-01-04 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:59:00+00:00",
+        "gap_end": "2023-01-05 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:59:00+00:00",
+        "gap_end": "2023-01-08 23:00:00+00:00",
+        "n_missing_slots": 2940,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-09 21:59:00+00:00",
+        "gap_end": "2023-01-09 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 21:59:00+00:00",
+        "gap_end": "2023-01-10 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:59:00+00:00",
+        "gap_end": "2023-01-11 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:59:00+00:00",
+        "gap_end": "2023-01-12 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:59:00+00:00",
+        "gap_end": "2023-01-15 23:00:00+00:00",
+        "n_missing_slots": 2940,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-16 17:58:00+00:00",
+        "gap_end": "2023-01-16 23:00:00+00:00",
+        "n_missing_slots": 301,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-17 21:41:00+00:00",
+        "gap_end": "2023-01-17 21:43:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-17 21:59:00+00:00",
+        "gap_end": "2023-01-17 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-18 21:59:00+00:00",
+        "gap_end": "2023-01-18 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-19 21:59:00+00:00",
+        "gap_end": "2023-01-19 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-20 21:59:00+00:00",
+        "gap_end": "2023-01-22 23:00:00+00:00",
+        "n_missing_slots": 2940,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-23 21:37:00+00:00",
+        "gap_end": "2023-01-23 21:39:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-23 21:59:00+00:00",
+        "gap_end": "2023-01-23 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-24 21:59:00+00:00",
+        "gap_end": "2023-01-24 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-25 21:59:00+00:00",
+        "gap_end": "2023-01-25 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 1806.615,
+      "max_observed": 5593.005,
+      "median": 2661.728,
+      "n_outside_expected": 0,
+      "expected_range": [
+        200,
+        20000
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
     "path": "/root/workspace/commodity_history/data/daily/silver_dukascopy_native_d1.csv",
     "instrument": "silver",
     "kind": "silver_dukascopy_d1",
@@ -2164,6 +2337,179 @@
     "quality": "warn"
   },
   {
+    "path": "/root/workspace/commodity_history/data/intraday_1m/silver/dukascopy/silver_m1_bid_all.parquet",
+    "instrument": "silver",
+    "kind": "silver_m1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 1350775,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 23:02:00+00:00",
+    "end": "2026-10-30 12:24:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 6210,
+    "n_unknown_gaps": 6017,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 21:59:00+00:00",
+        "gap_end": "2023-01-03 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 23:02:00+00:00",
+        "gap_end": "2023-01-03 23:04:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 23:47:00+00:00",
+        "gap_end": "2023-01-03 23:49:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:36:00+00:00",
+        "gap_end": "2023-01-04 21:38:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:59:00+00:00",
+        "gap_end": "2023-01-04 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 23:28:00+00:00",
+        "gap_end": "2023-01-04 23:30:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 23:51:00+00:00",
+        "gap_end": "2023-01-04 23:53:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 05:08:00+00:00",
+        "gap_end": "2023-01-05 05:10:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:05:00+00:00",
+        "gap_end": "2023-01-05 21:07:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:10:00+00:00",
+        "gap_end": "2023-01-05 21:12:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:38:00+00:00",
+        "gap_end": "2023-01-05 21:40:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:43:00+00:00",
+        "gap_end": "2023-01-05 21:45:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:53:00+00:00",
+        "gap_end": "2023-01-05 21:55:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:59:00+00:00",
+        "gap_end": "2023-01-05 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 23:15:00+00:00",
+        "gap_end": "2023-01-05 23:17:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 20:31:00+00:00",
+        "gap_end": "2023-01-06 20:33:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:10:00+00:00",
+        "gap_end": "2023-01-06 21:12:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:15:00+00:00",
+        "gap_end": "2023-01-06 21:18:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:22:00+00:00",
+        "gap_end": "2023-01-06 21:24:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:30:00+00:00",
+        "gap_end": "2023-01-06 21:33:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 19.893,
+      "max_observed": 121.592,
+      "median": 31.154,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        500
+      ],
+      "unit": "USD/troy oz"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
     "path": "/root/workspace/commodity_history/data/daily/copper_dukascopy_native_d1.csv",
     "instrument": "copper",
     "kind": "copper_dukascopy_d1",
@@ -2670,6 +3016,179 @@
       "min_observed": 3.5189,
       "max_observed": 6.9241,
       "median": 4.469,
+      "n_outside_expected": 0,
+      "expected_range": [
+        0.5,
+        20
+      ],
+      "unit": "USD/lb"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/intraday_1m/copper/dukascopy/copper_m1_bid_all.parquet",
+    "instrument": "copper",
+    "kind": "copper_m1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 1322595,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 23:00:00+00:00",
+    "end": "2026-10-30 12:24:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 24487,
+    "n_unknown_gaps": 24294,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 04:29:00+00:00",
+        "gap_end": "2023-01-03 04:31:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 10:51:00+00:00",
+        "gap_end": "2023-01-03 10:53:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 21:12:00+00:00",
+        "gap_end": "2023-01-03 21:14:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 21:50:00+00:00",
+        "gap_end": "2023-01-03 21:53:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 21:59:00+00:00",
+        "gap_end": "2023-01-03 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 23:12:00+00:00",
+        "gap_end": "2023-01-03 23:14:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 23:35:00+00:00",
+        "gap_end": "2023-01-03 23:37:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 23:37:00+00:00",
+        "gap_end": "2023-01-03 23:39:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 23:45:00+00:00",
+        "gap_end": "2023-01-03 23:47:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 23:55:00+00:00",
+        "gap_end": "2023-01-03 23:59:00+00:00",
+        "n_missing_slots": 3,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:08:00+00:00",
+        "gap_end": "2023-01-04 21:10:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:39:00+00:00",
+        "gap_end": "2023-01-04 21:41:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:47:00+00:00",
+        "gap_end": "2023-01-04 21:49:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:59:00+00:00",
+        "gap_end": "2023-01-04 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 23:05:00+00:00",
+        "gap_end": "2023-01-04 23:07:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 23:43:00+00:00",
+        "gap_end": "2023-01-04 23:45:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 23:47:00+00:00",
+        "gap_end": "2023-01-04 23:49:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 23:51:00+00:00",
+        "gap_end": "2023-01-04 23:53:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 18:11:00+00:00",
+        "gap_end": "2023-01-05 18:13:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:17:00+00:00",
+        "gap_end": "2023-01-05 21:19:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 3.5189,
+      "max_observed": 6.9253,
+      "median": 4.4873,
       "n_outside_expected": 0,
       "expected_range": [
         0.5,
@@ -3252,6 +3771,179 @@
     "quality": "warn"
   },
   {
+    "path": "/root/workspace/commodity_history/data/intraday_1m/wti/dukascopy/wti_m1_bid_all.parquet",
+    "instrument": "wti",
+    "kind": "wti_m1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 1335820,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-02 23:00:00+00:00",
+    "end": "2026-10-30 12:24:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 17480,
+    "n_unknown_gaps": 17287,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 21:27:00+00:00",
+        "gap_end": "2023-01-03 21:29:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 21:59:00+00:00",
+        "gap_end": "2023-01-03 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:59:00+00:00",
+        "gap_end": "2023-01-04 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:59:00+00:00",
+        "gap_end": "2023-01-05 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:52:00+00:00",
+        "gap_end": "2023-01-06 21:54:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:59:00+00:00",
+        "gap_end": "2023-01-08 23:00:00+00:00",
+        "n_missing_slots": 2940,
+        "classification": "session_break_candidate"
+      },
+      {
+        "gap_start": "2023-01-09 21:59:00+00:00",
+        "gap_end": "2023-01-09 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 00:38:00+00:00",
+        "gap_end": "2023-01-10 00:40:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 20:22:00+00:00",
+        "gap_end": "2023-01-10 20:25:00+00:00",
+        "n_missing_slots": 2,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 21:59:00+00:00",
+        "gap_end": "2023-01-10 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 05:10:00+00:00",
+        "gap_end": "2023-01-11 05:12:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:33:00+00:00",
+        "gap_end": "2023-01-11 21:35:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:52:00+00:00",
+        "gap_end": "2023-01-11 21:54:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:59:00+00:00",
+        "gap_end": "2023-01-11 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 23:09:00+00:00",
+        "gap_end": "2023-01-11 23:11:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:25:00+00:00",
+        "gap_end": "2023-01-12 21:27:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:59:00+00:00",
+        "gap_end": "2023-01-12 23:00:00+00:00",
+        "n_missing_slots": 60,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 23:49:00+00:00",
+        "gap_end": "2023-01-12 23:51:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:39:00+00:00",
+        "gap_end": "2023-01-13 21:41:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:59:00+00:00",
+        "gap_end": "2023-01-15 23:00:00+00:00",
+        "n_missing_slots": 2940,
+        "classification": "session_break_candidate"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 54.975,
+      "max_observed": 118.73,
+      "median": 74.203,
+      "n_outside_expected": 0,
+      "expected_range": [
+        -50,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
     "path": "/root/workspace/commodity_history/data/daily/brent_dukascopy_native_d1.csv",
     "instrument": "brent",
     "kind": "brent_dukascopy_d1",
@@ -3773,6 +4465,179 @@
       "min_observed": 58.555,
       "max_observed": 118.497,
       "median": 78.648,
+      "n_outside_expected": 0,
+      "expected_range": [
+        1,
+        200
+      ],
+      "unit": "USD/barrel"
+    },
+    "spikes": [],
+    "n_spikes": 0,
+    "ohlc_violations": 0,
+    "quality": "warn"
+  },
+  {
+    "path": "/root/workspace/commodity_history/data/intraday_1m/brent/dukascopy/brent_m1_bid_all.parquet",
+    "instrument": "brent",
+    "kind": "brent_m1",
+    "exists": true,
+    "readable": true,
+    "empty": false,
+    "rows": 1223826,
+    "columns": [
+      "timestamp_utc",
+      "instrument",
+      "provider_symbol",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "price_side",
+      "source",
+      "instrument_type",
+      "n_input_obs",
+      "volume_semantics"
+    ],
+    "start": "2023-01-03 01:00:00+00:00",
+    "end": "2026-10-30 12:24:00+00:00",
+    "sorted": true,
+    "duplicate_timestamps": 0,
+    "null_timestamps": 0,
+    "n_gaps": 12953,
+    "n_unknown_gaps": 12953,
+    "gaps_preview": [
+      {
+        "gap_start": "2023-01-03 21:36:00+00:00",
+        "gap_end": "2023-01-03 21:38:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-03 21:59:00+00:00",
+        "gap_end": "2023-01-04 01:00:00+00:00",
+        "n_missing_slots": 180,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 06:56:00+00:00",
+        "gap_end": "2023-01-04 06:58:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-04 21:59:00+00:00",
+        "gap_end": "2023-01-05 01:00:00+00:00",
+        "n_missing_slots": 180,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:40:00+00:00",
+        "gap_end": "2023-01-05 21:42:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-05 21:59:00+00:00",
+        "gap_end": "2023-01-06 01:00:00+00:00",
+        "n_missing_slots": 180,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:55:00+00:00",
+        "gap_end": "2023-01-06 21:57:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-06 21:59:00+00:00",
+        "gap_end": "2023-01-09 01:00:00+00:00",
+        "n_missing_slots": 3060,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-09 03:31:00+00:00",
+        "gap_end": "2023-01-09 03:33:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-09 21:14:00+00:00",
+        "gap_end": "2023-01-09 21:16:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-09 21:43:00+00:00",
+        "gap_end": "2023-01-09 21:45:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-09 21:59:00+00:00",
+        "gap_end": "2023-01-10 01:00:00+00:00",
+        "n_missing_slots": 180,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-10 21:59:00+00:00",
+        "gap_end": "2023-01-11 01:00:00+00:00",
+        "n_missing_slots": 180,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-11 21:59:00+00:00",
+        "gap_end": "2023-01-12 01:00:00+00:00",
+        "n_missing_slots": 180,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 04:38:00+00:00",
+        "gap_end": "2023-01-12 04:40:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-12 21:59:00+00:00",
+        "gap_end": "2023-01-13 01:00:00+00:00",
+        "n_missing_slots": 180,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 04:04:00+00:00",
+        "gap_end": "2023-01-13 04:06:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 04:46:00+00:00",
+        "gap_end": "2023-01-13 04:48:00+00:00",
+        "n_missing_slots": 1,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-13 21:59:00+00:00",
+        "gap_end": "2023-01-16 01:00:00+00:00",
+        "n_missing_slots": 3060,
+        "classification": "unknown"
+      },
+      {
+        "gap_start": "2023-01-16 04:40:00+00:00",
+        "gap_end": "2023-01-16 04:47:00+00:00",
+        "n_missing_slots": 6,
+        "classification": "unknown"
+      }
+    ],
+    "null_values": 0,
+    "inf_values": 0,
+    "n_nonpositive": 0,
+    "n_negative": 0,
+    "magnitude": {
+      "checked": true,
+      "min_observed": 58.418,
+      "max_observed": 118.927,
+      "median": 78.673,
       "n_outside_expected": 0,
       "expected_range": [
         1,

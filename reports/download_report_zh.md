@@ -1,6 +1,6 @@
 # 金融商品历史价格下载报告
 
-- 生成时间（UTC）：2026-10-30T12:16:17Z
+- 生成时间（UTC）：2026-10-30T12:28:07Z
 - 本报告只记录实际运行、实际下载和实际检查的结果。
 - 数据**不是** point-in-time 版本库；没有供应商版本历史，不得当作 PIT 数据。
 - 月度 IndexMundi 仅作为 `monthly_reference`，未插值、未前向填充、未复制成日线。
@@ -49,6 +49,11 @@
 | WTI原油 | cfd_proxy | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 1193 | USD per barrel | `/root/workspace/commodity_history/data/daily/wti_dukascopy_utc_daily_from_m5.csv` | warn | completed |
 | Brent原油 | cfd_proxy | Dukascopy | 5-minute native m5 | [2023-01-01, 2026-10-31) | 2023-01-03 01:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 247721 | USD per barrel | `/root/workspace/commodity_history/data/intraday_5m/brent/dukascopy/brent_m5_bid_all.csv` | warn | completed |
 | Brent原油 | cfd_proxy | Dukascopy | utc_daily_from_m5 | [2023-01-01, 2026-10-31) | 2023-01-03 01:00:00+00:00 .. 2026-10-30 12:10:00+00:00 | 989 | USD per barrel | `/root/workspace/commodity_history/data/daily/brent_dukascopy_utc_daily_from_m5.csv` | warn | completed |
+| 黄金 | dukascopy_spot_quote | Dukascopy | 1-minute native m1 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:23:00+00:00 | 1358341 | USD per troy ounce | `/root/workspace/commodity_history/data/intraday_1m/gold/dukascopy/gold_m1_bid_all.parquet` | warn | completed |
+| 白银 | dukascopy_spot_quote | Dukascopy | 1-minute native m1 | [2023-01-01, 2026-10-31) | 2023-01-02 23:02:00+00:00 .. 2026-10-30 12:24:00+00:00 | 1350775 | USD per troy ounce | `/root/workspace/commodity_history/data/intraday_1m/silver/dukascopy/silver_m1_bid_all.parquet` | warn | completed |
+| 铜 | cfd_proxy | Dukascopy | 1-minute native m1 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:24:00+00:00 | 1322595 | USD per pound | `/root/workspace/commodity_history/data/intraday_1m/copper/dukascopy/copper_m1_bid_all.parquet` | warn | completed |
+| WTI原油 | cfd_proxy | Dukascopy | 1-minute native m1 | [2023-01-01, 2026-10-31) | 2023-01-02 23:00:00+00:00 .. 2026-10-30 12:24:00+00:00 | 1335820 | USD per barrel | `/root/workspace/commodity_history/data/intraday_1m/wti/dukascopy/wti_m1_bid_all.parquet` | warn | completed |
+| Brent原油 | cfd_proxy | Dukascopy | 1-minute native m1 | [2023-01-01, 2026-10-31) | 2023-01-03 01:00:00+00:00 .. 2026-10-30 12:24:00+00:00 | 1223826 | USD per barrel | `/root/workspace/commodity_history/data/intraday_1m/brent/dukascopy/brent_m1_bid_all.parquet` | warn | completed |
 
 ## 小样本验证
 
@@ -734,40 +739,40 @@
     "note": "Values copied from downloaded files for manual source comparison; not independently re-fetched here."
   },
   {
-    "instrument": "silver",
-    "kind": "silver_dukascopy_d1",
-    "path": "/root/workspace/commodity_history/data/daily/silver_dukascopy_native_d1.csv",
+    "instrument": "gold",
+    "kind": "gold_m1",
+    "path": "/root/workspace/commodity_history/data/intraday_1m/gold/dukascopy/gold_m1_bid_all.parquet",
     "n_checked": 5,
     "rows": [
       {
-        "timestamp_utc": "1999-06-03 00:00:00+00:00",
-        "instrument": "silver",
-        "open": 4.96,
-        "high": 4.99,
-        "low": 4.94,
-        "close": 4.93,
-        "volume": 156750000
+        "timestamp_utc": "2023-01-02 23:00:00+00:00",
+        "instrument": "gold",
+        "open": 1826.837,
+        "high": 1827.337,
+        "low": 1826.617,
+        "close": 1826.637,
+        "volume": 15840.0
       },
       {
-        "timestamp_utc": "2006-11-06 00:00:00+00:00",
-        "instrument": "silver",
-        "open": 12.503,
-        "high": 12.782,
-        "low": 12.281,
-        "close": 12.557,
-        "volume": 546200000
+        "timestamp_utc": "2023-12-15 05:51:00+00:00",
+        "instrument": "gold",
+        "open": 2035.318,
+        "high": 2035.714,
+        "low": 2035.308,
+        "close": 2035.638,
+        "volume": 49020.0
       },
       {
-        "timestamp_utc": "2013-06-25 00:00:00+00:00",
-        "instrument": "silver",
-        "open": 19.695,
-        "high": 19.85,
-        "low": 19.463,
-        "close": 19.554,
-        "volume": 971326000
+        "timestamp_utc": "2024-11-29 04:16:00+00:00",
+        "instrument": "gold",
+        "open": 2659.975,
+        "high": 2660.185,
+        "low": 2659.675,
+        "close": 2660.175,
+        "volume": 58020.0
       },
       {
-        "timestamp_utc"
+  
 ```
 
 ## 与来源对照 / 跨来源数量级核查
